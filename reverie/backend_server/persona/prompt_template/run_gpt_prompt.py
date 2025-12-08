@@ -372,10 +372,15 @@ def run_gpt_prompt_task_decomp(persona,
         _cr += [i]
     for count, i in enumerate(_cr): 
       k = [j.strip() for j in i.split("(duration in minutes:")]
+      if len(k) < 2:
+        continue
       task = k[0]
-      if task[-1] == ".": 
+      if task and task[-1] == ".": 
         task = task[:-1]
-      duration = int(k[1].split(",")[0].strip())
+      try:
+        duration = int(k[1].split(",")[0].strip())
+      except Exception:
+        continue
       cr += [[task, duration]]
 
     total_expected_min = int(prompt.split("(total duration in minutes")[-1]
@@ -426,7 +431,8 @@ def run_gpt_prompt_task_decomp(persona,
     fs = ["asleep"]
     return fs
 
-  gpt_param = {"engine": "text-davinci-003", "max_tokens": 1000, 
+  # Use chat model compatible with DashScope/OpenAI. Max tokens is generous for task decompositions.
+  gpt_param = {"engine": "qwen3-max", "max_tokens": 1000, 
              "temperature": 0, "top_p": 1, "stream": False,
              "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   prompt_template = "persona/prompt_template/v2/task_decomp_v3.txt"
@@ -470,7 +476,10 @@ def run_gpt_prompt_task_decomp(persona,
     ftime_sum += fi_duration
   
   # print ("for debugging... line 365", fin_output)
-  fin_output[-1][1] += (duration - ftime_sum)
+  if len(fin_output) == 0:
+    fin_output = [[task, duration]]
+  else:
+    fin_output[-1][1] += (duration - ftime_sum)
   output = fin_output 
 
 
@@ -553,7 +562,9 @@ def run_gpt_prompt_action_sector(action_description,
 
 
   def __func_clean_up(gpt_response, prompt=""):
-    cleaned_response = gpt_response.split("}")[0]
+    # Accept responses like "{kitchen}" and strip braces/whitespace.
+    cleaned_response = gpt_response.split("}")[0].strip()
+    cleaned_response = cleaned_response.lstrip("{").strip()
     return cleaned_response
 
   def __func_validate(gpt_response, prompt=""): 
@@ -683,7 +694,9 @@ def run_gpt_prompt_action_arena(action_description,
     return prompt_input
 
   def __func_clean_up(gpt_response, prompt=""):
-    cleaned_response = gpt_response.split("}")[0]
+    # Accept responses like "{Maria Lopez's room}" and strip braces/whitespace.
+    cleaned_response = gpt_response.split("}")[0].strip()
+    cleaned_response = cleaned_response.lstrip("{").strip()
     return cleaned_response
 
   def __func_validate(gpt_response, prompt=""): 
@@ -1012,8 +1025,9 @@ def run_gpt_prompt_act_obj_desc(act_game_object, act_desp, persona, verbose=Fals
   fail_safe = get_fail_safe(act_game_object) ########
   output = ChatGPT_safe_generate_response(prompt, example_output, special_instruction, 3, fail_safe,
                                           __chat_func_validate, __chat_func_clean_up, True)
-  if output != False: 
-    return output, [output, prompt, gpt_param, prompt_input, fail_safe]
+  if output == False:
+    output = fail_safe
+  return output, [output, prompt, gpt_param, prompt_input, fail_safe]
   # ChatGPT Plugin ===========================================================
 
 
@@ -2909,13 +2923,6 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
                "temperature": 0, "top_p": 1, "stream": False,
                "frequency_penalty": 0, "presence_penalty": 0, "stop": None}
   return output, [output, prompt, gpt_param, prompt_input, fail_safe]
-
-
-
-
-
-
-
 
 
 

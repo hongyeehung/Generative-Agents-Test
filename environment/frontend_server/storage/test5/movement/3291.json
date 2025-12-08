@@ -1,0 +1,84 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83d\ude0a",
+      "description": "[(ID:ymU9vm) Monday February 13 -- 09:00 AM] Activity: Isabella is working at the counter of Hobbs Cafe, greeting early customers with her usual warmth and preparing Valentine\u2019s Day decorations between (greeting the first customer of the hour with a warm smile and cheerful \u201cGood morning!\u201d) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        104,
+        36
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing Klaus's research on gentrification and displacement, Maria's physics studies, the potential intersection of data modeling and social issues, and arranging to meet for lunch at Hobbs Cafe to continue their conversation. @ <persona> Klaus Mueller",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey, Klaus! Fancy seeing you here\u2014wait, no, scratch that\u2014you're at the library, right? Sorry, my brain\u2019s still booting up with this iced coffee. I\u2019m over at Hobbs Cafe studying physics. Anyway, how\u2019s your research going?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria! Yeah, I\u2019m at the library diving into some articles on gentrification\u2014trying to wrap my head around how displacement affects community networks in low-income neighborhoods. It\u2019s heavy stuff, but really important. How\u2019s physics treating you this morning?"
+        ],
+        [
+          "Maria Lopez",
+          "Oh wow, that sounds super impactful\u2014and honestly, kind of intense. I\u2019ve been thinking a lot about how science and social issues intersect lately. Like, could physics or data modeling even help map displacement patterns? Anyway, I\u2019m knee-deep in quantum mechanics right now, which feels like its own kind of parallel universe! How do you stay focused reading all that heavy material?"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s actually a really cool thought\u2014using data modeling to visualize displacement. I\u2019ve been looking at some spatial analysis papers that do exactly that, overlaying census data with rent trends. It\u2019s fascinating how tech can make systemic issues more visible. And honestly, what keeps me focused is remembering the people behind the data\u2014their stories, their resilience. Plus, coffee helps! Speaking of which, want to grab lunch later? I was planning to head to Hobbs around noon."
+        ],
+        [
+          "Maria Lopez",
+          "Lunch at Hobbs sounds perfect! I\u2019m already here, so I\u2019ll save us a table\u2014maybe the one by the window? And hey, if you\u2019re up for it, I\u2019d love to hear more about those spatial models over lunch. Maybe I can even brainstorm how physics-style simulations could plug into your work!"
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely\u2014I\u2019d love that! Your perspective could really add something fresh to how I\u2019m thinking about this. I\u2019ll wrap up here around noon and head straight to Hobbs. See you at the window table!"
+        ]
+      ]
+    },
+    "Klaus Mueller": {
+      "movement": [
+        103,
+        35
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Maria Lopez and Klaus Mueller discussing Klaus's research on gentrification and displacement, Maria's physics studies, the potential intersection of data modeling and social issues, and arranging to meet for lunch at Hobbs Cafe to continue their conversation. @ <persona> Maria Lopez",
+      "chat": [
+        [
+          "Maria Lopez",
+          "Hey, Klaus! Fancy seeing you here\u2014wait, no, scratch that\u2014you're at the library, right? Sorry, my brain\u2019s still booting up with this iced coffee. I\u2019m over at Hobbs Cafe studying physics. Anyway, how\u2019s your research going?"
+        ],
+        [
+          "Klaus Mueller",
+          "Hey Maria! Yeah, I\u2019m at the library diving into some articles on gentrification\u2014trying to wrap my head around how displacement affects community networks in low-income neighborhoods. It\u2019s heavy stuff, but really important. How\u2019s physics treating you this morning?"
+        ],
+        [
+          "Maria Lopez",
+          "Oh wow, that sounds super impactful\u2014and honestly, kind of intense. I\u2019ve been thinking a lot about how science and social issues intersect lately. Like, could physics or data modeling even help map displacement patterns? Anyway, I\u2019m knee-deep in quantum mechanics right now, which feels like its own kind of parallel universe! How do you stay focused reading all that heavy material?"
+        ],
+        [
+          "Klaus Mueller",
+          "That\u2019s actually a really cool thought\u2014using data modeling to visualize displacement. I\u2019ve been looking at some spatial analysis papers that do exactly that, overlaying census data with rent trends. It\u2019s fascinating how tech can make systemic issues more visible. And honestly, what keeps me focused is remembering the people behind the data\u2014their stories, their resilience. Plus, coffee helps! Speaking of which, want to grab lunch later? I was planning to head to Hobbs around noon."
+        ],
+        [
+          "Maria Lopez",
+          "Lunch at Hobbs sounds perfect! I\u2019m already here, so I\u2019ll save us a table\u2014maybe the one by the window? And hey, if you\u2019re up for it, I\u2019d love to hear more about those spatial models over lunch. Maybe I can even brainstorm how physics-style simulations could plug into your work!"
+        ],
+        [
+          "Klaus Mueller",
+          "Absolutely\u2014I\u2019d love that! Your perspective could really add something fresh to how I\u2019m thinking about this. I\u2019ll wrap up here around noon and head straight to Hobbs. See you at the window table!"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:08:30"
+  }
+}

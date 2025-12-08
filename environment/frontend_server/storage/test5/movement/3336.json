@@ -1,0 +1,34 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\u2615\u2764\ufe0f",
+      "description": "[(ID:ymU9vm) Monday February 13 -- 09:00 AM] Activity: Isabella is working at the counter of Hobbs Cafe, greeting early customers with her usual warmth and preparing Valentine\u2019s Day decorations between (preparing the customer\u2019s drink with care, adding a heart-shaped latte art for Valentine\u2019s flair) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        110,
+        37
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83c\udf7d",
+      "description": "[ (conversing about Maria Lopez and Klaus Mueller discussing Klaus's research on gentrification and displacement, Maria's physics studies, the potential intersection of data modeling and social issues, and arranging to meet for lunch at Hobbs Cafe to continue their conversation.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        108,
+        37
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83c\udf7d",
+      "description": "[ (conversing about Maria Lopez and Klaus Mueller discussing Klaus's research on gentrification and displacement, Maria's physics studies, the potential intersection of data modeling and social issues, and arranging to meet for lunch at Hobbs Cafe to continue their conversation.) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:16:00"
+  }
+}

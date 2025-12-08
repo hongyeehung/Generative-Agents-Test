@@ -101,11 +101,14 @@ class MemoryTree:
     if not curr_arena: 
       return ""
 
-    try: 
-      x = ", ".join(list(self.tree[curr_world][curr_sector][curr_arena]))
-    except: 
-      x = ", ".join(list(self.tree[curr_world][curr_sector][curr_arena.lower()]))
-    return x
+    # Normalize arena names that may carry braces/extra spaces.
+    curr_arena_norm = curr_arena.strip().strip("{}").lower()
+    sector_tree = self.tree.get(curr_world, {}).get(curr_sector, {})
+    if curr_arena in sector_tree:
+      return ", ".join(list(sector_tree[curr_arena]))
+    if curr_arena_norm in sector_tree:
+      return ", ".join(list(sector_tree[curr_arena_norm]))
+    return ""
 
 
 if __name__ == '__main__':
@@ -114,7 +117,6 @@ if __name__ == '__main__':
   x.print_tree()
 
   print (x.get_str_accessible_sector_arenas("dolores double studio:double studio"))
-
 
 
 
