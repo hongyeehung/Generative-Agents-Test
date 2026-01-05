@@ -1,0 +1,86 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        76,
+        14
+      ],
+      "pronunciatio": "\ud83c\udd94\u2753",
+      "description": "[(ID:8XyJbw) Monday February 13 -- 08:00 AM] Activity: DrChen is completing his morning routine and preparing to see patients at the respiratory clinic @ the Ville:Isabella Rodriguez's apartment:bathroom:shower",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        76,
+        14
+      ],
+      "pronunciatio": "\ud83c\udd94\ud83d\udd0d",
+      "description": "[(ID:2VRbU3) Monday February 13 -- 08:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        131,
+        49
+      ],
+      "pronunciatio": "\ud83c\udd94",
+      "description": "[(ID:pvh9mc) Monday February 13 -- 08:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        124,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about two patients, PatientA and PatientB, discussing their respective health issues\u2014PatientB\u2019s facial redness and itching prompting a dermatology visit, and PatientA\u2019s fever, sore throat, and cough leading to a hospital respiratory check-up. @ <persona> PatientB",
+      "chat": [
+        [
+          "PatientA",
+          "Hey, good morning! How are you feeling today? I noticed you\u2019re being really gentle with your face\u2014everything okay?"
+        ],
+        [
+          "PatientB",
+          "Oh, hey. Yeah, I\u2019ve had this redness and itching on my face for the past three days\u2014it\u2019s really bothering me. I\u2019m trying not to make it worse while I get ready. I\u2019m actually planning to go to dermatology today to see if it\u2019s an allergy or something. How about you? You look a bit tired."
+        ],
+        [
+          "PatientA",
+          "Yeah, I\u2019ve been up most of the night coughing\u2014fever and sore throat too. I\u2019m heading to the hospital after breakfast for a respiratory check-up. Hope your skin issue clears up soon; dermatology sounds like a good call."
+        ],
+        [
+          "PatientB",
+          "Oh no, that sounds rough\u2014hope you feel better soon! Maybe we\u2019ll both be back to normal after our appointments. Good luck at the hospital!"
+        ]
+      ]
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about two patients, PatientA and PatientB, discussing their respective health issues\u2014PatientB\u2019s facial redness and itching prompting a dermatology visit, and PatientA\u2019s fever, sore throat, and cough leading to a hospital respiratory check-up. @ <persona> PatientA",
+      "chat": [
+        [
+          "PatientA",
+          "Hey, good morning! How are you feeling today? I noticed you\u2019re being really gentle with your face\u2014everything okay?"
+        ],
+        [
+          "PatientB",
+          "Oh, hey. Yeah, I\u2019ve had this redness and itching on my face for the past three days\u2014it\u2019s really bothering me. I\u2019m trying not to make it worse while I get ready. I\u2019m actually planning to go to dermatology today to see if it\u2019s an allergy or something. How about you? You look a bit tired."
+        ],
+        [
+          "PatientA",
+          "Yeah, I\u2019ve been up most of the night coughing\u2014fever and sore throat too. I\u2019m heading to the hospital after breakfast for a respiratory check-up. Hope your skin issue clears up soon; dermatology sounds like a good call."
+        ],
+        [
+          "PatientB",
+          "Oh no, that sounds rough\u2014hope you feel better soon! Maybe we\u2019ll both be back to normal after our appointments. Good luck at the hospital!"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:06:00"
+  }
+}

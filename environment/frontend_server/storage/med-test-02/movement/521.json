@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\u2695\ufe0f",
+      "description": "[(ID:LlwmwP) Monday February 13 -- 04:00 PM] Activity: DrChen is finishing afternoon clinic duties, reviewing diagnostic results, and documenting patient treatment plans before concluding his clinical responsibilities for the day (drafting individualized treatment plans based on confirmed or suspected diagnoses) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83e\uddf4\ud83e\uddfc",
+      "description": "[(ID:WqsEz3) Monday February 13 -- 04:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (sanitizing the triage desk surface and her hands before calling the next patient, maintaining infection control protocols) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83e\ude7a\ud83d\udd0d",
+      "description": "[(ID:IvHpTr) Monday February 13 -- 04:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary (ordering only essential tests based on clinical suspicion\u2014none if diagnosis is clear) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\u2753\ud83d\udc8a",
+      "description": "[(ID:7jd1LU) Monday February 13 -- 04:00 PM] Activity: Patient is still at the hospital, receiving preliminary test results and discussing treatment options with the physician; due to persistent symptoms and fatigue, (asking clarifying questions about treatment options, recovery timeline, and whether antibiotics are necessary) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\uddf4\ud83d\udc46",
+      "description": "[(ID:CJw9hb) Monday February 13 -- 04:00 PM] Activity: Patient is waking up from nap, gently checking facial redness in the mirror, and applying the newly prescribed topical treatment as instructed by (squeezing a pea-sized amount of cream onto clean fingertips, as directed by the dermatologist) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:41:00"
+  }
+}

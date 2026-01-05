@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcdd\u2695\ufe0f",
+      "description": "[(ID:LlwmwP) Monday February 13 -- 04:00 PM] Activity: DrChen is finishing afternoon clinic duties, reviewing diagnostic results, and documenting patient treatment plans before concluding his clinical responsibilities for the day (drafting individualized treatment plans based on confirmed or suspected diagnoses) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udda8\ufe0f\ud83d\udccb",
+      "description": "[(ID:WqsEz3) Monday February 13 -- 04:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (printing or electronically sending the triage referral slip and handing it to the patient with directions to the correct department) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        72,
+        20
+      ],
+      "pronunciatio": "\ud83e\uddea\ud83e\ude79",
+      "description": "[(ID:IvHpTr) Monday February 13 -- 04:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary (determining whether diagnostic tests are necessary (e.g., patch testing, skin scraping)) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83e\ude78\ud83e\udda0",
+      "description": "[(ID:7jd1LU) Monday February 13 -- 04:00 PM] Activity: Patient is still at the hospital, receiving preliminary test results and discussing treatment options with the physician; due to persistent symptoms and fatigue, (listening attentively as the physician explains the preliminary test results (elevated white blood cell count, negative rapid flu test, possible viral etiology)) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\uddf4\ud83d\udd0d",
+      "description": "[(ID:CJw9hb) Monday February 13 -- 04:00 PM] Activity: Patient is waking up from nap, gently checking facial redness in the mirror, and applying the newly prescribed topical treatment as instructed by (retrieving the newly prescribed topical cream from the medicine cabinet, checking the label and instructions) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:35:00"
+  }
+}

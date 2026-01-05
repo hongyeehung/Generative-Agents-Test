@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83e\udd12",
+      "description": "[(ID:hwmYG4) Monday February 13 -- 01:00 PM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing evidence-based (greeting the first patient, verifying their identity, and confirming the chief complaint of cough and fever) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83d\udccb",
+      "description": "[(ID:nSwPgj) Monday February 13 -- 01:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the appropriate (sanitizing the triage desk and preparing patient intake forms and digital devices for the afternoon flow) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        66,
+        36
+      ],
+      "pronunciatio": "\ud83c\udfe5\ud83d\udcbb",
+      "description": "[(ID:2EVuzC) Monday February 13 -- 01:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only (1) DrWang is reviewing the morning\u2019s patient notes and updating electronic health records (EHR) for continuity) @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udca7\ud83e\udd27",
+      "description": "[(ID:5Hjz2K) Monday February 13 -- 01:00 PM] Activity: Patient is resting in the hospital waiting area or recovery space after morning diagnostic tests, feeling fatigued from symptoms and the (sipping water from a bottle to soothe their sore throat and stay hydrated) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "[(ID:HiKy9N) Monday February 13 -- 01:00 PM] Activity: Patient is returning home from the dermatology clinic, feeling fatigued from the morning\u2019s stress and itching; begins preparing a light (walking to the bus stop or parking area, still feeling the itch on their face) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:07:00"
+  }
+}

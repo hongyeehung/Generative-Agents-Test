@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\ude2e\u200d\ud83d\udca8",
+      "description": "[(ID:hwmYG4) Monday February 13 -- 01:00 PM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing evidence-based (conducting a focused history: asking about symptom onset, duration, severity, associated symptoms (e.g., shortness of breath, chest pain), and recent exposures) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        53
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83e\ude7a",
+      "description": "[(ID:nSwPgj) Monday February 13 -- 01:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the appropriate (recording the patient\u2019s reported symptoms, vital signs, and chief complaint in the electronic health record) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        61,
+        31
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83e\ude7a",
+      "description": "[(ID:2EVuzC) Monday February 13 -- 01:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only (greeting the first patient, confirming chief complaint of facial erythema and itching) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83e\udd27",
+      "description": "[(ID:5Hjz2K) Monday February 13 -- 01:00 PM] Activity: Patient is resting in the hospital waiting area or recovery space after morning diagnostic tests, feeling fatigued from symptoms and the (closing their eyes and attempting light rest, though occasional coughing interrupts deep relaxation) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\ude8c\ud83d\udcad",
+      "description": "[(ID:HiKy9N) Monday February 13 -- 01:00 PM] Activity: Patient is returning home from the dermatology clinic, feeling fatigued from the morning\u2019s stress and itching; begins preparing a light (commuting home via bus or car, trying to relax and reflect on the dermatologist\u2019s advice) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:17:00"
+  }
+}

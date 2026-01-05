@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        82,
+        15
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83e\udde4",
+      "description": "[(ID:wxKkxK) Monday February 13 -- 09:00 AM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing (washing hands and donning fresh gloves before entering the first patient\u2019s room) @ the Ville:Isabella Rodriguez's apartment:bathroom:bathroom sink",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83e\udd12\ud83c\udf2c\ufe0f",
+      "description": "[(ID:zwX3T6) Monday February 13 -- 09:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (asking the patient if they are experiencing fever or shortness of breath, using clear and gentle phrasing) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        119,
+        51
+      ],
+      "pronunciatio": "\ud83c\udd94",
+      "description": "[(ID:pvh9mc) Monday February 13 -- 08:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        131,
+        53
+      ],
+      "pronunciatio": "\ud83e\udea5\ud83e\uddf4\ud83d\udc55",
+      "description": "[(ID:hQjVN7) Monday February 13 -- 08:00 AM] Activity: Patient is waking up and completing morning routine (brushing teeth, washing face, getting dressed), feeling fatigued due to disrupted @ the Ville:Dorm for Oak Hill College:woman's bathroom:bathroom sink",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\ude0c\ud83d\udeab",
+      "description": "[(ID:xOIJoE) Monday February 13 -- 08:00 AM] Activity: Patient is waking up, washing face gently (avoiding irritation), and completing morning hygiene routine while monitoring facial redness and itching @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:06:00"
+  }
+}

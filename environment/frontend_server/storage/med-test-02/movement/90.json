@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        73,
+        15
+      ],
+      "pronunciatio": "\ud83e\uddea\ud83e\ude7a",
+      "description": "[(ID:wxKkxK) Monday February 13 -- 09:00 AM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing (determining whether diagnostic tests (e.g., rapid flu test, chest X-ray, or PCR for respiratory viruses) are clinically indicated based on symptoms and exam) @ the Ville:Isabella Rodriguez's apartment:main room:refrigerator",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udccd\ud83d\udcac",
+      "description": "[(ID:zwX3T6) Monday February 13 -- 09:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (explaining to the patient where they need to go next, offering clear directions and reassurance about wait times or next steps) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        111,
+        54
+      ],
+      "pronunciatio": "\ud83e\udec0\ud83e\uddf4",
+      "description": "[(ID:WkqXlv) Monday February 13 -- 09:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms, ordering (considering differential diagnoses (e.g., rosacea, allergic contact dermatitis, seborrheic dermatitis, atopic dermatitis)) @ the Ville:Dorm for Oak Hill College:man's bathroom:bathroom sink",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        117,
+        48
+      ],
+      "pronunciatio": "\ud83d\udcc1\ud83d\udc89",
+      "description": "[(ID:Minl6B) Monday February 13 -- 09:00 AM] Activity: Patient is preparing to leave for the hospital, gathering medical documents and checking symptoms before departure (retrieving past medical records and vaccination history from a filing cabinet) @ the Ville:Harvey Oak Supply Store:supply store:behind the supply store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\udef6\ud83d\ude05",
+      "description": "[(ID:lswjSb) Monday February 13 -- 09:00 AM] Activity: Patient is preparing to leave for the clinic, gathering medical notes and checking facial redness in the mirror before heading out to attend the (lightly touching their forehead and jawline to gauge current itch intensity) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:30:00"
+  }
+}

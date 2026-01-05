@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udd2c\ud83d\udccb",
+      "description": "[(ID:LlwmwP) Monday February 13 -- 04:00 PM] Activity: DrChen is finishing afternoon clinic duties, reviewing diagnostic results, and documenting patient treatment plans before concluding his clinical responsibilities for the day (cross-referencing lab findings with each patient\u2019s clinical symptoms and vital signs) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83c\udfe5\ud83e\ude7a",
+      "description": "[(ID:WqsEz3) Monday February 13 -- 04:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (determining the appropriate department (e.g., respiratory clinic, urgent care, cardiology) based on triage protocol and symptom severity) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "\ud83e\ude79\ud83e\uddf4",
+      "description": "[(ID:IvHpTr) Monday February 13 -- 04:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary (assessing for signs of infection, allergy, or inflammatory conditions (e.g., rosacea, eczema, contact dermatitis)) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        76,
+        50
+      ],
+      "pronunciatio": "\ud83e\ude78\ud83e\udda0",
+      "description": "[(ID:7jd1LU) Monday February 13 -- 04:00 PM] Activity: Patient is still at the hospital, receiving preliminary test results and discussing treatment options with the physician; due to persistent symptoms and fatigue, (listening attentively as the physician explains the preliminary test results (elevated white blood cell count, negative rapid flu test, possible viral etiology)) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\udc50\ud83e\uddfb",
+      "description": "[(ID:CJw9hb) Monday February 13 -- 04:00 PM] Activity: Patient is waking up from nap, gently checking facial redness in the mirror, and applying the newly prescribed topical treatment as instructed by (patting hands dry with a clean, soft towel, being careful not to rub too hard) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:29:00"
+  }
+}

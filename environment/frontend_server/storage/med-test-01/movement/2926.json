@@ -1,0 +1,86 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udccb\ud83d\udc69\u200d",
+      "description": "[(ID:x1CqjL) Monday February 13 -- 08:00 AM] Activity: DrChen is in the respiratory clinic, reviewing the morning patient list and preparing for consultations (reviewing the list of scheduled patients for the morning session, noting names, ages, and chief complaints) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        119,
+        27
+      ],
+      "pronunciatio": "\ud83d\udccb\u2695\ufe0f",
+      "description": "[(ID:fCFgyi) Monday February 13 -- 08:00 AM] Activity: Nurse is at the triage desk, greeting patients, asking about fever and breathing difficulties, and directing them to the appropriate departments (reviewing the morning patient flow schedule and preparing triage protocols for common symptoms) @ the Ville:Oak Hill College:library:<random>",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        60,
+        20
+      ],
+      "pronunciatio": "\ud83e\uddf4\ud83e\udee7",
+      "description": "[(ID:JFSC6i) Monday February 13 -- 08:00 AM] Activity: DrWang is in the dermatology clinic, efficiently consulting patients with facial redness and itching, ordering only necessary tests and (sanitizing hands and preparing the examination room) @ the Ville:The Rose and Crown Pub:pub:kitchen sink",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        117,
+        56
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about two patients, PatientA and PatientB, checking in on each other\u2019s health\u2014PatientB dealing with worsening itchy skin redness and planning to visit a skin clinic, while PatientA still has a fever and persistent cough and is heading to the hospital for evaluation. @ <persona> PatientB",
+      "chat": [
+        [
+          "PatientA",
+          "Morning, PatientB. How\u2019s your skin looking today? I noticed you checking it in the mirror\u2014still dealing with that redness?"
+        ],
+        [
+          "PatientB",
+          "Morning, PatientA. Yeah, the redness is still there\u2014actually worse this morning\u2014and it\u2019s really itchy. I\u2019m heading to the skin clinic after breakfast to see if they can give me something for it. How are you holding up? You mentioned a cough and fever yesterday?"
+        ],
+        [
+          "PatientA",
+          "Thanks for asking\u2014I\u2019m still running a slight fever and the cough hasn\u2019t let up, so I\u2019m heading to the hospital right after breakfast to get checked out. Hope your skin calms down soon; that sounds really uncomfortable."
+        ],
+        [
+          "PatientB",
+          "Yeah, it\u2019s been keeping me up a bit. Good luck with your visit\u2014I hope they figure out what\u2019s causing your fever quickly. Maybe we\u2019ll both feel better by tomorrow!"
+        ]
+      ]
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about two patients, PatientA and PatientB, checking in on each other\u2019s health\u2014PatientB dealing with worsening itchy skin redness and planning to visit a skin clinic, while PatientA still has a fever and persistent cough and is heading to the hospital for evaluation. @ <persona> PatientA",
+      "chat": [
+        [
+          "PatientA",
+          "Morning, PatientB. How\u2019s your skin looking today? I noticed you checking it in the mirror\u2014still dealing with that redness?"
+        ],
+        [
+          "PatientB",
+          "Morning, PatientA. Yeah, the redness is still there\u2014actually worse this morning\u2014and it\u2019s really itchy. I\u2019m heading to the skin clinic after breakfast to see if they can give me something for it. How are you holding up? You mentioned a cough and fever yesterday?"
+        ],
+        [
+          "PatientA",
+          "Thanks for asking\u2014I\u2019m still running a slight fever and the cough hasn\u2019t let up, so I\u2019m heading to the hospital right after breakfast to get checked out. Hope your skin calms down soon; that sounds really uncomfortable."
+        ],
+        [
+          "PatientB",
+          "Yeah, it\u2019s been keeping me up a bit. Good luck with your visit\u2014I hope they figure out what\u2019s causing your fever quickly. Maybe we\u2019ll both feel better by tomorrow!"
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:07:40"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        74,
+        19
+      ],
+      "pronunciatio": "\ud83e\ude7b\ud83e\udd12",
+      "description": "[(ID:LlwmwP) Monday February 13 -- 04:00 PM] Activity: DrChen is finishing afternoon clinic duties, reviewing diagnostic results, and documenting patient treatment plans before concluding his clinical responsibilities for the day (reviewing chest X-ray reports for three patients with persistent cough and fever) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83e\udec1\ud83d\udc40",
+      "description": "[(ID:WqsEz3) Monday February 13 -- 04:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (asking the patient, \u201cAre you experiencing any shortness of breath or difficulty breathing?\u201d and observing their respiratory effort) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        75,
+        22
+      ],
+      "pronunciatio": "\ud83d\ude33\ud83e\udee5",
+      "description": "[(ID:IvHpTr) Monday February 13 -- 04:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary (greeting the patient and confirming chief complaint (facial erythema and itching)) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        53
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\udcdd",
+      "description": "[(ID:7jd1LU) Monday February 13 -- 04:00 PM] Activity: Patient is still at the hospital, receiving preliminary test results and discussing treatment options with the physician; due to persistent symptoms and fatigue, (reviewing their symptom notes in their phone to ensure they accurately recall fever patterns, cough frequency, and sore throat severity) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\udeb6\u200d\u2642",
+      "description": "[(ID:CJw9hb) Monday February 13 -- 04:00 PM] Activity: Patient is waking up from nap, gently checking facial redness in the mirror, and applying the newly prescribed topical treatment as instructed by (walking to the bathroom, moving carefully to avoid sudden movements that might irritate their skin) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 16:10:00"
+  }
+}

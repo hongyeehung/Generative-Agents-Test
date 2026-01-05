@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udccb\ud83d\udd0d",
+      "description": "[(ID:x1CqjL) Monday February 13 -- 08:00 AM] Activity: DrChen is in the respiratory clinic, reviewing the morning patient list and preparing for consultations (cross-referencing each patient\u2019s medical history, prior respiratory diagnoses, and recent test results) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        116,
+        32
+      ],
+      "pronunciatio": "\ud83d\ude2e\u200d\ud83d\udca8",
+      "description": "[(ID:fCFgyi) Monday February 13 -- 08:00 AM] Activity: Nurse is at the triage desk, greeting patients, asking about fever and breathing difficulties, and directing them to the appropriate departments (asking the patient specifically about fever (e.g., \u201cDo you have a temperature above 38\u00b0C?\u201d) and breathing difficulties (e.g., \u201cAre you short of breath or having trouble catching your breath?\u201d)) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        61,
+        25
+      ],
+      "pronunciatio": "\ud83e\ude7a\ud83d\udc40",
+      "description": "[(ID:JFSC6i) Monday February 13 -- 08:00 AM] Activity: DrWang is in the dermatology clinic, efficiently consulting patients with facial redness and itching, ordering only necessary tests and (conducting a focused physical examination of the patient\u2019s face and affected skin areas) @ the Ville:The Rose and Crown Pub:pub:microphone",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        84,
+        56
+      ],
+      "pronunciatio": "\ud83d\udca7\ud83e\uddd6\u200d",
+      "description": "[(ID:692L3P) Monday February 13 -- 08:00 AM] Activity: Patient is waking up and completing morning routine (brushing teeth, washing face, getting dressed) in preparation for hospital visit (washing their face with warm water to help ease throat discomfort and feel refreshed) @ the Ville:Harvey Oak Supply Store:supply store:supply store product shelf",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\udca7\ud83c\udf21\ufe0f",
+      "description": "[(ID:zRI679) Monday February 13 -- 08:00 AM] Activity: Patient is waking up and completing morning routine (washing face gently due to skin sensitivity, avoiding harsh products) (wetting the washcloth with lukewarm water and testing the temperature to avoid irritation) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:18:20"
+  }
+}

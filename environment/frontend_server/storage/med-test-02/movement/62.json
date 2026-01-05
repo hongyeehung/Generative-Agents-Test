@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        81,
+        14
+      ],
+      "pronunciatio": "\ud83c\udd94\u2753",
+      "description": "[(ID:8XyJbw) Monday February 13 -- 08:00 AM] Activity: DrChen is completing his morning routine and preparing to see patients at the respiratory clinic @ the Ville:Isabella Rodriguez's apartment:bathroom:shower",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83c\udd94\ud83d\udd0d",
+      "description": "[(ID:2VRbU3) Monday February 13 -- 08:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        119,
+        51
+      ],
+      "pronunciatio": "\ud83c\udd94",
+      "description": "[(ID:pvh9mc) Monday February 13 -- 08:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        131,
+        53
+      ],
+      "pronunciatio": "\ud83e\udea5\ud83e\uddf4\ud83d\udc55",
+      "description": "[(ID:hQjVN7) Monday February 13 -- 08:00 AM] Activity: Patient is waking up and completing morning routine (brushing teeth, washing face, getting dressed), feeling fatigued due to disrupted @ the Ville:Dorm for Oak Hill College:woman's bathroom:bathroom sink",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\ude0c\ud83d\udeab",
+      "description": "[(ID:xOIJoE) Monday February 13 -- 08:00 AM] Activity: Patient is waking up, washing face gently (avoiding irritation), and completing morning hygiene routine while monitoring facial redness and itching @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:02:00"
+  }
+}

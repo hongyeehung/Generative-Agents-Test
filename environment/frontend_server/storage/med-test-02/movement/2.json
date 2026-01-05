@@ -1,0 +1,78 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about NurseLi and Dr. Chen discussing an uptick in patients with low-grade fever and dry cough, and agreeing to route those with fever over 38\u00b0C or oxygen saturation below 94% directly to Dr. Chen\u2019s respiratory clinic while performing rapid flu and RSV tests for milder cases at triage. @ <persona> NurseLi",
+      "chat": [
+        [
+          "NurseLi",
+          "Good morning, Dr. Chen! Just wanted to check\u2014have we seen an increase in patients with fever or shortness of breath today? I\u2019m triaging at the desk and want to make sure I\u2019m routing them correctly to your respiratory clinic if needed."
+        ],
+        [
+          "DrChen",
+          "Good morning, NurseLi. Thanks for checking. I haven\u2019t reviewed the full list yet, but based on early arrivals, yes\u2014there\u2019s been a slight uptick in patients presenting with low-grade fever and dry cough, though shortness of breath remains less common. Please continue routing anyone with fever over 38\u00b0C or oxygen saturation below 94% directly to my clinic. For milder symptoms, let\u2019s start with rapid flu and RSV tests at triage before escalation."
+        ],
+        [
+          "NurseLi",
+          "Understood, Dr. Chen. I\u2019ll make sure to check temperatures and oxygen levels right away and send those meeting the criteria straight to your clinic. I\u2019ll also arrange rapid flu and RSV tests for anyone with milder symptoms before considering escalation. Thanks for the guidance!"
+        ]
+      ]
+    },
+    "NurseLi": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about NurseLi and Dr. Chen discussing an uptick in patients with low-grade fever and dry cough, and agreeing to route those with fever over 38\u00b0C or oxygen saturation below 94% directly to Dr. Chen\u2019s respiratory clinic while performing rapid flu and RSV tests for milder cases at triage. @ <persona> DrChen",
+      "chat": [
+        [
+          "NurseLi",
+          "Good morning, Dr. Chen! Just wanted to check\u2014have we seen an increase in patients with fever or shortness of breath today? I\u2019m triaging at the desk and want to make sure I\u2019m routing them correctly to your respiratory clinic if needed."
+        ],
+        [
+          "DrChen",
+          "Good morning, NurseLi. Thanks for checking. I haven\u2019t reviewed the full list yet, but based on early arrivals, yes\u2014there\u2019s been a slight uptick in patients presenting with low-grade fever and dry cough, though shortness of breath remains less common. Please continue routing anyone with fever over 38\u00b0C or oxygen saturation below 94% directly to my clinic. For milder symptoms, let\u2019s start with rapid flu and RSV tests at triage before escalation."
+        ],
+        [
+          "NurseLi",
+          "Understood, Dr. Chen. I\u2019ll make sure to check temperatures and oxygen levels right away and send those meeting the criteria straight to your clinic. I\u2019ll also arrange rapid flu and RSV tests for anyone with milder symptoms before considering escalation. Thanks for the guidance!"
+        ]
+      ]
+    },
+    "DrWang": {
+      "movement": [
+        129,
+        46
+      ],
+      "pronunciatio": "\ud83c\udd94",
+      "description": "[(ID:pvh9mc) Monday February 13 -- 08:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        123,
+        54
+      ],
+      "pronunciatio": "\ud83e\udea5\ud83e\uddfc\ud83d\udc55",
+      "description": "[(ID:hQjVN7) Monday February 13 -- 08:00 AM] Activity: Patient is waking up and completing morning routine (brushing teeth, washing face, getting dressed), feeling fatigued due to disrupted @ the Ville:Dorm for Oak Hill College:woman's bathroom:bathroom sink",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\ude0c\ud83d\udeab",
+      "description": "[(ID:xOIJoE) Monday February 13 -- 08:00 AM] Activity: Patient is waking up, washing face gently (avoiding irritation), and completing morning hygiene routine while monitoring facial redness and itching @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:02:00"
+  }
+}

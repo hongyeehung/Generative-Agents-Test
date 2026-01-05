@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:Qu5Ug4) Monday February 13 -- 02:00 PM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing (1) DrChen is reviewing the patient\u2019s electronic medical record and prior visit notes) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83d\udda5\ufe0f",
+      "description": "[(ID:1TLow4) Monday February 13 -- 02:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the (sanitizing the triage desk, keyboard, and tablet to maintain infection control protocols) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        73,
+        19
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:vZL3nf) Monday February 13 -- 02:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only (1) DrWang is reviewing the next patient\u2019s chart and prior visit notes) @ the Ville:Hobbs Cafe:cafe:refrigerator",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:VOPQKV) Monday February 13 -- 02:00 PM] Activity: Patient is continuing to rest in the hospital recovery area or waiting for test results, too fatigued to follow original nap plans but (1) Patient is sitting in a hospital recovery chair, leaning back with eyes closed to conserve energy) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83e\uddf4",
+      "description": "[(ID:9St5x9) Monday February 13 -- 02:00 PM] Activity: Patient is napping at home to recover from morning stress and fatigue caused by facial itching and the clinic visit, following the dermat (washing hands and gently cleansing face with prescribed gentle cleanser) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:05:00"
+  }
+}

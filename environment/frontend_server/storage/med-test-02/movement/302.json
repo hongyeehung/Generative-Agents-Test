@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83c\udfe5\ud83d\udcbb",
+      "description": "[(ID:hwmYG4) Monday February 13 -- 01:00 PM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing evidence-based (1) DrChen is reviewing the afternoon patient schedule and pulling up the first patient\u2019s electronic health record (EHR)) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        53
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:nSwPgj) Monday February 13 -- 01:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the appropriate (1) Nurse is reviewing the triage log from the morning shift to identify any recurring symptoms or high-priority cases) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        71,
+        36
+      ],
+      "pronunciatio": "\ud83c\udfe5\ud83d\udcbb",
+      "description": "[(ID:2EVuzC) Monday February 13 -- 01:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only (1) DrWang is reviewing the morning\u2019s patient notes and updating electronic health records (EHR) for continuity) @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        53
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:5Hjz2K) Monday February 13 -- 01:00 PM] Activity: Patient is resting in the hospital waiting area or recovery space after morning diagnostic tests, feeling fatigued from symptoms and the (1) Patient is settling into a comfortable seat in the hospital waiting area, adjusting their position to ease throat discomfort) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:HiKy9N) Monday February 13 -- 01:00 PM] Activity: Patient is returning home from the dermatology clinic, feeling fatigued from the morning\u2019s stress and itching; begins preparing a light (1) Patient is gathering personal belongings and exiting the dermatology clinic) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:02:00"
+  }
+}

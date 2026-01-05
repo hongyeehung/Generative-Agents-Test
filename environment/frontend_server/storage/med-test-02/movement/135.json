@@ -1,0 +1,126 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        73,
+        15
+      ],
+      "pronunciatio": "\ud83e\udd76\ud83d\ude34",
+      "description": "[(ID:2JCxIv) Monday February 13 -- 10:00 AM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing (asking detailed questions about symptom onset, duration, severity, and associated features (e.g., chills, fatigue, shortness of breath)) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        79,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Nurse Li and Patient A discussing the patient\u2019s respiratory symptoms\u2014including a fever of 38.5\u00b0C, persistent cough, sore throat, fatigue, and sleep disruption\u2014leading to a decision to send the patient directly to Dr. Chen\u2019s respiratory clinic after a normal oxygen saturation reading of 96%, with the patient providing vaccination records to aid evaluation. @ <persona> PatientA",
+      "chat": [
+        [
+          "NurseLi",
+          "Good morning! I'm Nurse Li at the triage desk. Are you here for a respiratory concern? Could you tell me if you're experiencing a fever\u2014especially above 38\u00b0C\u2014or any shortness of breath?"
+        ],
+        [
+          "PatientA",
+          "Yes, I\u2019m here for a respiratory issue. I\u2019ve had a fever\u2014around 38.5\u00b0C\u2014and a persistent cough along with a sore throat since the weekend. I haven\u2019t had shortness of breath, but I\u2019ve been feeling fatigued, especially from coughing at night."
+        ],
+        [
+          "NurseLi",
+          "Thank you for letting me know. Since your fever is above 38\u00b0C, I\u2019ll need to check your oxygen saturation quickly. If it\u2019s below 94%, or even if it\u2019s normal but your symptoms are worsening, we\u2019ll send you directly to Dr. Chen\u2019s respiratory clinic for further evaluation. In the meantime, please take a seat just over there while I prepare the pulse oximeter."
+        ],
+        [
+          "PatientA",
+          "Sure, I appreciate the quick check. While we're at it, should I mention that I\u2019ve also been having trouble sleeping because of the cough? It\u2019s been disrupting my nights pretty badly."
+        ],
+        [
+          "NurseLi",
+          "Absolutely, that\u2019s helpful to know\u2014poor sleep from coughing can really affect your recovery. I\u2019ll note that down as part of your symptoms. Let\u2019s get your oxygen level checked now, and based on the reading, we\u2019ll decide whether you go straight to Dr. Chen or if we do a rapid flu and RSV test here first. Just rest for a moment\u2014I\u2019ll be right back with the oximeter."
+        ],
+        [
+          "PatientA",
+          "Okay, thank you. I also wanted to mention that I\u2019ve retrieved my vaccination records this morning\u2014just in case they\u2019re needed for the consultation."
+        ],
+        [
+          "NurseLi",
+          "That\u2019s very thoughtful of you\u2014having your vaccination records ready will definitely help Dr. Chen assess your case more efficiently. I\u2019ll make sure to include that in your file. Now, let me quickly check your oxygen saturation with this pulse oximeter. It\u2019s painless and only takes a few seconds."
+        ],
+        [
+          "PatientA",
+          "Understood. I\u2019m happy to cooperate with whatever tests or checks are needed. Just let me know if there\u2019s anything else I should prepare while we wait."
+        ],
+        [
+          "NurseLi",
+          "Your oxygen saturation is 96%\u2014that\u2019s within the normal range. However, since your fever is above 38\u00b0C and you\u2019ve got a persistent cough with significant fatigue and sleep disruption, I\u2019m going to send you directly to Dr. Chen\u2019s respiratory clinic for a full evaluation. He\u2019s expecting patients like you this morning. Please head down the hall to Room 204, and the front desk there will check you in. Your vaccination records will be very useful, so please keep them handy."
+        ]
+      ]
+    },
+    "DrWang": {
+      "movement": [
+        119,
+        49
+      ],
+      "pronunciatio": "\u2753",
+      "description": "[(ID:CDzsug) Monday February 13 -- 10:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        85,
+        53
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about Nurse Li and Patient A discussing the patient\u2019s respiratory symptoms\u2014including a fever of 38.5\u00b0C, persistent cough, sore throat, fatigue, and sleep disruption\u2014leading to a decision to send the patient directly to Dr. Chen\u2019s respiratory clinic after a normal oxygen saturation reading of 96%, with the patient providing vaccination records to aid evaluation. @ <persona> NurseLi",
+      "chat": [
+        [
+          "NurseLi",
+          "Good morning! I'm Nurse Li at the triage desk. Are you here for a respiratory concern? Could you tell me if you're experiencing a fever\u2014especially above 38\u00b0C\u2014or any shortness of breath?"
+        ],
+        [
+          "PatientA",
+          "Yes, I\u2019m here for a respiratory issue. I\u2019ve had a fever\u2014around 38.5\u00b0C\u2014and a persistent cough along with a sore throat since the weekend. I haven\u2019t had shortness of breath, but I\u2019ve been feeling fatigued, especially from coughing at night."
+        ],
+        [
+          "NurseLi",
+          "Thank you for letting me know. Since your fever is above 38\u00b0C, I\u2019ll need to check your oxygen saturation quickly. If it\u2019s below 94%, or even if it\u2019s normal but your symptoms are worsening, we\u2019ll send you directly to Dr. Chen\u2019s respiratory clinic for further evaluation. In the meantime, please take a seat just over there while I prepare the pulse oximeter."
+        ],
+        [
+          "PatientA",
+          "Sure, I appreciate the quick check. While we're at it, should I mention that I\u2019ve also been having trouble sleeping because of the cough? It\u2019s been disrupting my nights pretty badly."
+        ],
+        [
+          "NurseLi",
+          "Absolutely, that\u2019s helpful to know\u2014poor sleep from coughing can really affect your recovery. I\u2019ll note that down as part of your symptoms. Let\u2019s get your oxygen level checked now, and based on the reading, we\u2019ll decide whether you go straight to Dr. Chen or if we do a rapid flu and RSV test here first. Just rest for a moment\u2014I\u2019ll be right back with the oximeter."
+        ],
+        [
+          "PatientA",
+          "Okay, thank you. I also wanted to mention that I\u2019ve retrieved my vaccination records this morning\u2014just in case they\u2019re needed for the consultation."
+        ],
+        [
+          "NurseLi",
+          "That\u2019s very thoughtful of you\u2014having your vaccination records ready will definitely help Dr. Chen assess your case more efficiently. I\u2019ll make sure to include that in your file. Now, let me quickly check your oxygen saturation with this pulse oximeter. It\u2019s painless and only takes a few seconds."
+        ],
+        [
+          "PatientA",
+          "Understood. I\u2019m happy to cooperate with whatever tests or checks are needed. Just let me know if there\u2019s anything else I should prepare while we wait."
+        ],
+        [
+          "NurseLi",
+          "Your oxygen saturation is 96%\u2014that\u2019s within the normal range. However, since your fever is above 38\u00b0C and you\u2019ve got a persistent cough with significant fatigue and sleep disruption, I\u2019m going to send you directly to Dr. Chen\u2019s respiratory clinic for a full evaluation. He\u2019s expecting patients like you this morning. Please head down the hall to Room 204, and the front desk there will check you in. Your vaccination records will be very useful, so please keep them handy."
+        ]
+      ]
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83c\udd94\ud83d\udd0d",
+      "description": "[(ID:tR8rmT) Monday February 13 -- 10:00 AM] Activity: Patient is at the dermatology clinic, describing facial erythema and itching to the triage nurse and awaiting consultation with the dermat @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 10:15:00"
+  }
+}

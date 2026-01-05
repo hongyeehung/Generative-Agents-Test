@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83e\udd7c",
+      "description": "[(ID:c0pzEi) Monday February 13 -- 12:00 PM] Activity: DrChen is finishing morning clinic duties, documenting patient cases, and having a quick lunch before the afternoon session (washing hands and changing out of clinic coat before lunch) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83d\udcca",
+      "description": "[(ID:LlJHw2) Monday February 13 -- 12:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (inputting all collected data into the electronic health record system accurately and efficiently) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        98,
+        43
+      ],
+      "pronunciatio": "\ud83c\udf7d\ufe0f\ud83d\udccb",
+      "description": "[(ID:6CyuVT) Monday February 13 -- 12:00 PM] Activity: DrWang is having lunch after morning clinic, reviewing patient notes briefly before the afternoon session (eating lunch while glancing at the morning\u2019s patient list on tablet) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83e\uddea\ud83c\udf21\ufe0f",
+      "description": "[(ID:iEGPpF) Monday February 13 -- 12:00 PM] Activity: Patient is undergoing initial respiratory consultation and diagnostic tests (e.g., rapid flu test, throat swab, temperature check) as directed @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\u2705\ud83d\udcc9",
+      "description": "[(ID:ZI39kv) Monday February 13 -- 12:00 PM] Activity: Patient is finishing the dermatology consultation, receiving prescribed topical treatment instructions, and preparing to leave the clinic; feeling slightly relieved but (confirming whether a follow-up appointment is needed and learning it\u2019s only if symptoms worsen) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:28:00"
+  }
+}

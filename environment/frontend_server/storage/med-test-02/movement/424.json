@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        80,
+        26
+      ],
+      "pronunciatio": "\ud83c\udfe5\ud83d\udcbb",
+      "description": "[(ID:QcL5D9) Monday February 13 -- 03:00 PM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and (1) DrChen is reviewing the patient\u2019s electronic health record (EHR) and prior visit notes) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:L4iOj5) Monday February 13 -- 03:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (1) Nurse is greeting the next patient in line with a calm, reassuring smile and inviting them to sit at the triage desk) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:hzAcFo) Monday February 13 -- 03:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary (1) DrWang is reviewing the next patient\u2019s chart and prior visit notes) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:5Goff1) Monday February 13 -- 03:00 PM] Activity: Patient is still resting in the hospital recovery area, awaiting final test results and physician follow-up; fatigue and persistent cough prevent engagement in (1) Patient is sitting upright in the hospital recovery chair, adjusting the thin blanket over their lap for comfort) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\ude0c\ud83e\uddd8",
+      "description": "[(ID:WZ0B3F) Monday February 13 -- 03:00 PM] Activity: Patient is still napping at home, continuing rest to alleviate fatigue and support skin recovery following the dermatology appointment; sleep (closing eyes and attempting to relax, focusing on slow breathing to ease anxiety and facial discomfort) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:04:00"
+  }
+}

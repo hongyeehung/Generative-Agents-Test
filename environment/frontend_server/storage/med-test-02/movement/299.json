@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83d\udca7\ud83e\ude7a",
+      "description": "[(ID:c0pzEi) Monday February 13 -- 12:00 PM] Activity: DrChen is finishing morning clinic duties, documenting patient cases, and having a quick lunch before the afternoon session (refilling water bottle and preparing for the afternoon clinic session) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83e\uddd8\u200d\u2640",
+      "description": "[(ID:LlJHw2) Monday February 13 -- 12:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (taking a slow, mindful breath, checking her posture, and resetting her focus to maintain patience and presence for the next interaction) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        74,
+        36
+      ],
+      "pronunciatio": "\ud83c\udfe5\ud83d\udcbb",
+      "description": "[(ID:2EVuzC) Monday February 13 -- 01:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only (1) DrWang is reviewing the morning\u2019s patient notes and updating electronic health records (EHR) for continuity) @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83e\uddea\ud83c\udf21\ufe0f",
+      "description": "[(ID:iEGPpF) Monday February 13 -- 12:00 PM] Activity: Patient is undergoing initial respiratory consultation and diagnostic tests (e.g., rapid flu test, throat swab, temperature check) as directed @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:HiKy9N) Monday February 13 -- 01:00 PM] Activity: Patient is returning home from the dermatology clinic, feeling fatigued from the morning\u2019s stress and itching; begins preparing a light (1) Patient is gathering personal belongings and exiting the dermatology clinic) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 12:59:00"
+  }
+}

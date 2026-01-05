@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        79,
+        21
+      ],
+      "pronunciatio": "\ud83d\udcac\u2764\ufe0f",
+      "description": "[(ID:Qu5Ug4) Monday February 13 -- 02:00 PM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing (explaining the assessment and plan to the patient in clear, compassionate language) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        75,
+        51
+      ],
+      "pronunciatio": "\ud83e\udec1\u2764\ufe0f",
+      "description": "[(ID:1TLow4) Monday February 13 -- 02:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the (determining the appropriate department (e.g., respiratory, cardiology, general medicine) based on symptom profile and triage guidelines) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        75,
+        21
+      ],
+      "pronunciatio": "\ud83e\uddf4\ud83e\udec0",
+      "description": "[(ID:vZL3nf) Monday February 13 -- 02:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only (explaining the likely diagnosis (e.g., contact dermatitis, rosacea, or seborrheic dermatitis) to the patient clearly and concisely) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        49
+      ],
+      "pronunciatio": "\ud83d\udcf1\ud83d\ude34",
+      "description": "[(ID:VOPQKV) Monday February 13 -- 02:00 PM] Activity: Patient is continuing to rest in the hospital recovery area or waiting for test results, too fatigued to follow original nap plans but (texting a family member a short update: \u201cStill waiting. Feeling tired.\u201d) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udecf\ufe0f",
+      "description": "[(ID:9St5x9) Monday February 13 -- 02:00 PM] Activity: Patient is napping at home to recover from morning stress and fatigue caused by facial itching and the clinic visit, following the dermat (napping lightly, occasionally shifting due to residual facial itch but remaining in bed) @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:44:00"
+  }
+}

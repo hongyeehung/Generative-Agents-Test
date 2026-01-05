@@ -1,0 +1,27 @@
+{
+  "DrChen": {
+    "maze": "the_ville",
+    "x": 81,
+    "y": 14
+  },
+  "NurseLi": {
+    "maze": "the_ville",
+    "x": 80,
+    "y": 44
+  },
+  "DrWang": {
+    "maze": "the_ville",
+    "x": 119,
+    "y": 24
+  },
+  "PatientA": {
+    "maze": "the_ville",
+    "x": 125,
+    "y": 52
+  },
+  "PatientB": {
+    "maze": "the_ville",
+    "x": 120,
+    "y": 55
+  }
+}

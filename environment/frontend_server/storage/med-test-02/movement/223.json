@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        76,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcbb\ud83e\ude7a",
+      "description": "[(ID:wNvbAf) Monday February 13 -- 11:00 AM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing evidence-based (ordering appropriate tests through the electronic health record and explaining the rationale to the patient) @ the Ville:Hobbs Cafe:cafe:cooking area",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        53
+      ],
+      "pronunciatio": "\ud83d\udda8\ufe0f\ud83d\udccb",
+      "description": "[(ID:wqIZpn) Monday February 13 -- 11:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the appropriate (printing or electronically sending the triage referral slip and updating the patient flow board) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        117,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udd0d",
+      "description": "[(ID:nwj8ST) Monday February 13 -- 11:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary (documenting the encounter, including plan and rationale for minimal testing) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcac\ud83d\udccb",
+      "description": "[(ID:dnHyLE) Monday February 13 -- 11:00 AM] Activity: Patient is arriving at the hospital, checking in at triage, and beginning to describe symptoms (fever, cough, sore throat) (answering follow-up questions from the triage nurse about symptom onset, severity, and duration) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\udec0\ud83e\udd27",
+      "description": "[(ID:tWRjkq) Monday February 13 -- 11:00 AM] Activity: Patient is still at the dermatology clinic, consulting with the dermatologist about facial erythema and itching, discussing possible allergic triggers, (listening to the dermatologist\u2019s preliminary assessment and asking clarifying questions about possible causes (e.g., contact dermatitis, rosacea, allergic reaction)) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:43:00"
+  }
+}

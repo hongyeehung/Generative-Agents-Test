@@ -1,0 +1,86 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        76,
+        22
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a conversation between Dr. Chen and Dr. Wang discussing the recent increase in respiratory cases in Dr. Chen\u2019s clinic, a scheduling mix-up involving a respiratory patient mistakenly seen in Dr. Wang\u2019s dermatology clinic, and the implementation of a new triage and referral protocol to prevent such errors. @ <persona> DrWang",
+      "chat": [
+        [
+          "DrChen",
+          "Hi Dr. Wang\u2014just catching a quick break between patients. I saw you handling that dermatology case efficiently. We\u2019ve been swamped in the respiratory clinic lately with this uptick in dry cough and low-grade fever cases. How\u2019s your day going?"
+        ],
+        [
+          "DrWang",
+          "Hi Dr. Chen. My day\u2019s been steady\u2014mostly contact dermatitis cases from new detergents or skincare products. Just had a scheduling mix-up this morning; someone with fever and cough showed up in my clinic by mistake. Glad they\u2019re now with you. How many respiratory cases are you seeing daily?"
+        ],
+        [
+          "DrChen",
+          "We\u2019re seeing about 30 to 35 respiratory cases a day now\u2014mostly mild, but we\u2019ve started triaging more strictly. Anyone with fever over 38\u00b0C or oxygen saturation below 94% comes straight to me, while milder cases get rapid flu and RSV tests at triage first. It\u2019s helped streamline things a bit. That mix-up you mentioned is exactly why we updated the referral protocol this morning with Nurse Li."
+        ],
+        [
+          "DrWang",
+          "Good to hear the new triage protocol\u2019s in place\u2014should cut down on cross-clinic mix-ups. I\u2019ll make sure my front desk references it. If I see another respiratory case by mistake, I\u2019ll send them straight over with a note."
+        ]
+      ]
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc69\u200d\u2695",
+      "description": "[(ID:nSwPgj) Monday February 13 -- 01:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the appropriate (handling a walk-in patient with mild symptoms, recording details, and routing them to general consultation) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        75,
+        24
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a conversation between Dr. Chen and Dr. Wang discussing the recent increase in respiratory cases in Dr. Chen\u2019s clinic, a scheduling mix-up involving a respiratory patient mistakenly seen in Dr. Wang\u2019s dermatology clinic, and the implementation of a new triage and referral protocol to prevent such errors. @ <persona> DrChen",
+      "chat": [
+        [
+          "DrChen",
+          "Hi Dr. Wang\u2014just catching a quick break between patients. I saw you handling that dermatology case efficiently. We\u2019ve been swamped in the respiratory clinic lately with this uptick in dry cough and low-grade fever cases. How\u2019s your day going?"
+        ],
+        [
+          "DrWang",
+          "Hi Dr. Chen. My day\u2019s been steady\u2014mostly contact dermatitis cases from new detergents or skincare products. Just had a scheduling mix-up this morning; someone with fever and cough showed up in my clinic by mistake. Glad they\u2019re now with you. How many respiratory cases are you seeing daily?"
+        ],
+        [
+          "DrChen",
+          "We\u2019re seeing about 30 to 35 respiratory cases a day now\u2014mostly mild, but we\u2019ve started triaging more strictly. Anyone with fever over 38\u00b0C or oxygen saturation below 94% comes straight to me, while milder cases get rapid flu and RSV tests at triage first. It\u2019s helped streamline things a bit. That mix-up you mentioned is exactly why we updated the referral protocol this morning with Nurse Li."
+        ],
+        [
+          "DrWang",
+          "Good to hear the new triage protocol\u2019s in place\u2014should cut down on cross-clinic mix-ups. I\u2019ll make sure my front desk references it. If I see another respiratory case by mistake, I\u2019ll send them straight over with a note."
+        ]
+      ]
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        53
+      ],
+      "pronunciatio": "\u23f0\ud83e\udd14",
+      "description": "[(ID:5Hjz2K) Monday February 13 -- 01:00 PM] Activity: Patient is resting in the hospital waiting area or recovery space after morning diagnostic tests, feeling fatigued from symptoms and the (glancing at the clock, wondering when results will be ready, and mentally preparing questions for the doctor) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\udd6a\ud83e\udd57",
+      "description": "[(ID:HiKy9N) Monday February 13 -- 01:00 PM] Activity: Patient is returning home from the dermatology clinic, feeling fatigued from the morning\u2019s stress and itching; begins preparing a light (preparing a light lunch\u2014perhaps a simple sandwich or salad\u2014to eat while resting) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:50:00"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        78,
+        19
+      ],
+      "pronunciatio": "\ud83d\udcc5\ud83d\udc8a",
+      "description": "[(ID:QcL5D9) Monday February 13 -- 03:00 PM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and (scheduling follow-up if needed and providing discharge instructions or prescriptions) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83d\udcde\ud83d\udc68",
+      "description": "[(ID:L4iOj5) Monday February 13 -- 03:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (calling the next patient by name, maintaining a warm and steady tone: \u201cMr. Chen, please come to the triage desk.\u201d) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        79,
+        25
+      ],
+      "pronunciatio": "\ud83d\udccb\ud83d\udc69\u200d",
+      "description": "[(ID:hzAcFo) Monday February 13 -- 03:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary (preparing the prescription and after-visit instructions, then briefly checking in with clinic staff before the next patient) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\ude4f\ud83d\ude34",
+      "description": "[(ID:5Goff1) Monday February 13 -- 03:00 PM] Activity: Patient is still resting in the hospital recovery area, awaiting final test results and physician follow-up; fatigue and persistent cough prevent engagement in (folding their hands in their lap, conserving energy while awaiting the physician\u2019s follow-up) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:CJw9hb) Monday February 13 -- 04:00 PM] Activity: Patient is waking up from nap, gently checking facial redness in the mirror, and applying the newly prescribed topical treatment as instructed by (1) Patient is slowly waking up from nap, blinking eyes and stretching gently in bed) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 15:59:00"
+  }
+}

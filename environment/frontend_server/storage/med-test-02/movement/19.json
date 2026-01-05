@@ -1,0 +1,102 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        81,
+        14
+      ],
+      "pronunciatio": "\ud83c\udd94\u2753",
+      "description": "[(ID:8XyJbw) Monday February 13 -- 08:00 AM] Activity: DrChen is completing his morning routine and preparing to see patients at the respiratory clinic @ the Ville:Isabella Rodriguez's apartment:bathroom:shower",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        76,
+        21
+      ],
+      "pronunciatio": "\ud83c\udd94\ud83d\udd0d",
+      "description": "[(ID:2VRbU3) Monday February 13 -- 08:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        125,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a patient consulting Dr. Wang about facial redness and itching likely caused by a new laundry detergent, leading to a diagnosis of contact dermatitis and a treatment plan involving discontinuing the detergent, using a gentle cleanser, and applying a mild topical steroid twice daily for up to 7 days. @ <persona> PatientB",
+      "chat": [
+        [
+          "PatientB",
+          "Hi Dr. Wang, I\u2019ve been having facial redness and itching for the past three days, and I was planning to come see you at the dermatology clinic today. I\u2019m a bit worried it might be an allergy\u2014could you please take a look?"
+        ],
+        [
+          "DrWang",
+          "Thanks for coming in. Let\u2019s take a look. Can you tell me if anything new triggered this\u2014like skincare products, detergents, or foods? Also, is the redness and itching constant or does it come and go?"
+        ],
+        [
+          "PatientB",
+          "I haven\u2019t changed my skincare routine recently, but I did start using a new laundry detergent about four days ago\u2014right before the symptoms started. The redness and itching have been pretty constant, especially around my cheeks and forehead, and it gets worse when I touch or rub my face."
+        ],
+        [
+          "DrWang",
+          "That timing with the new detergent is notable. I\u2019ll examine your skin now. Based on what you\u2019ve described, it sounds like contact dermatitis. I\u2019ll likely recommend stopping the new detergent and using a gentle, fragrance-free cleanser. I may also prescribe a mild topical steroid to reduce inflammation and itching\u2014nothing oral unless it worsens."
+        ],
+        [
+          "PatientB",
+          "Thank you, Dr. Wang. That makes sense\u2014I\u2019ll stop using the new detergent right away. Could you also let me know how often I should apply the topical steroid and for how long?"
+        ],
+        [
+          "DrWang",
+          "Apply the topical steroid twice daily\u2014morning and evening\u2014for up to 7 days. If the redness or itching doesn\u2019t improve within that time, or if it spreads or worsens, come back for a follow-up. Avoid scrubbing or using any other new products on your face in the meantime."
+        ]
+      ]
+    },
+    "PatientA": {
+      "movement": [
+        131,
+        52
+      ],
+      "pronunciatio": "\ud83e\udea5\ud83e\uddf4\ud83d\udc55",
+      "description": "[(ID:hQjVN7) Monday February 13 -- 08:00 AM] Activity: Patient is waking up and completing morning routine (brushing teeth, washing face, getting dressed), feeling fatigued due to disrupted @ the Ville:Dorm for Oak Hill College:woman's bathroom:bathroom sink",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about a patient consulting Dr. Wang about facial redness and itching likely caused by a new laundry detergent, leading to a diagnosis of contact dermatitis and a treatment plan involving discontinuing the detergent, using a gentle cleanser, and applying a mild topical steroid twice daily for up to 7 days. @ <persona> DrWang",
+      "chat": [
+        [
+          "PatientB",
+          "Hi Dr. Wang, I\u2019ve been having facial redness and itching for the past three days, and I was planning to come see you at the dermatology clinic today. I\u2019m a bit worried it might be an allergy\u2014could you please take a look?"
+        ],
+        [
+          "DrWang",
+          "Thanks for coming in. Let\u2019s take a look. Can you tell me if anything new triggered this\u2014like skincare products, detergents, or foods? Also, is the redness and itching constant or does it come and go?"
+        ],
+        [
+          "PatientB",
+          "I haven\u2019t changed my skincare routine recently, but I did start using a new laundry detergent about four days ago\u2014right before the symptoms started. The redness and itching have been pretty constant, especially around my cheeks and forehead, and it gets worse when I touch or rub my face."
+        ],
+        [
+          "DrWang",
+          "That timing with the new detergent is notable. I\u2019ll examine your skin now. Based on what you\u2019ve described, it sounds like contact dermatitis. I\u2019ll likely recommend stopping the new detergent and using a gentle, fragrance-free cleanser. I may also prescribe a mild topical steroid to reduce inflammation and itching\u2014nothing oral unless it worsens."
+        ],
+        [
+          "PatientB",
+          "Thank you, Dr. Wang. That makes sense\u2014I\u2019ll stop using the new detergent right away. Could you also let me know how often I should apply the topical steroid and for how long?"
+        ],
+        [
+          "DrWang",
+          "Apply the topical steroid twice daily\u2014morning and evening\u2014for up to 7 days. If the redness or itching doesn\u2019t improve within that time, or if it spreads or worsens, come back for a follow-up. Avoid scrubbing or using any other new products on your face in the meantime."
+        ]
+      ]
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:19:00"
+  }
+}

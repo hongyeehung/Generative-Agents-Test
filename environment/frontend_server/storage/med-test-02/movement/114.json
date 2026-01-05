@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        73,
+        14
+      ],
+      "pronunciatio": "\ud83e\uddfc\ud83e\ude7a",
+      "description": "[(ID:wxKkxK) Monday February 13 -- 09:00 AM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing (sanitizing the exam room surfaces and preparing for the next patient) @ the Ville:Isabella Rodriguez's apartment:main room:bed",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        75,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcc4\u2705",
+      "description": "[(ID:zwX3T6) Monday February 13 -- 09:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to (double-checking that all documentation for the previous patient is complete and saved in the system) @ the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        114,
+        51
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcbb",
+      "description": "[(ID:WkqXlv) Monday February 13 -- 09:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms, ordering (documenting the encounter in the electronic health record, including assessment and plan) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        98,
+        51
+      ],
+      "pronunciatio": "\ud83d\udccb\ud83e\udd14",
+      "description": "[(ID:Minl6B) Monday February 13 -- 09:00 AM] Activity: Patient is preparing to leave for the hospital, gathering medical documents and checking symptoms before departure (reviewing their list of symptoms and questions for the doctor one final time) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\udde5\ud83d\udc5f",
+      "description": "[(ID:lswjSb) Monday February 13 -- 09:00 AM] Activity: Patient is preparing to leave for the clinic, gathering medical notes and checking facial redness in the mirror before heading out to attend the (putting on a light jacket and comfortable shoes near the hallway closet) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:54:00"
+  }
+}

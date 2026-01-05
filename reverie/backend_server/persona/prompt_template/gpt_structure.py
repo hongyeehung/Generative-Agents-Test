@@ -12,11 +12,11 @@ import time
 
 from utils import *
 
-# 固定使用阿里云 DashScope 兼容接口（不依赖环境变量）
+# Use the DashScope compatible API endpoint (no env var required).
 default_api_base = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-# 兼容 curl 示例的模型名
+# Model name matching the curl examples.
 default_chat_model = "qwen3-max"
-# DashScope 兼容的向量模型
+# DashScope compatible embedding model.
 default_embed_model = "text-embedding-v4"
 
 if openai_api_key:

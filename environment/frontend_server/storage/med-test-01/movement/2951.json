@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        73,
+        16
+      ],
+      "pronunciatio": "\ud83d\udccb\ud83d\udc69\u200d",
+      "description": "[(ID:x1CqjL) Monday February 13 -- 08:00 AM] Activity: DrChen is in the respiratory clinic, reviewing the morning patient list and preparing for consultations (reviewing the list of scheduled patients for the morning session, noting names, ages, and chief complaints) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        117,
+        30
+      ],
+      "pronunciatio": "\ud83d\udc4b\ud83d\ude0c",
+      "description": "[(ID:fCFgyi) Monday February 13 -- 08:00 AM] Activity: Nurse is at the triage desk, greeting patients, asking about fever and breathing difficulties, and directing them to the appropriate departments (greeting the first patient of the day with a calm and reassuring tone) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        60,
+        20
+      ],
+      "pronunciatio": "\ud83d\ude33\ud83e\uddf4",
+      "description": "[(ID:JFSC6i) Monday February 13 -- 08:00 AM] Activity: DrWang is in the dermatology clinic, efficiently consulting patients with facial redness and itching, ordering only necessary tests and (greeting the first patient and confirming their chief complaint (facial redness and/or itching)) @ the Ville:The Rose and Crown Pub:pub:kitchen sink",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        114,
+        47
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83e\udd12",
+      "description": "[ (conversing about two patients, PatientA and PatientB, checking in on each other\u2019s health\u2014PatientB dealing with worsening itchy skin redness and planning to visit a skin clinic, while PatientA still has a fever and persistent cough and is heading to the hospital for evaluation.) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83e\udd12",
+      "description": "[ (conversing about two patients, PatientA and PatientB, checking in on each other\u2019s health\u2014PatientB dealing with worsening itchy skin redness and planning to visit a skin clinic, while PatientA still has a fever and persistent cough and is heading to the hospital for evaluation.) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:11:50"
+  }
+}

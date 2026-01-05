@@ -1,0 +1,78 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        79,
+        15
+      ],
+      "pronunciatio": "\ud83c\udd94\u2753",
+      "description": "[(ID:8XyJbw) Monday February 13 -- 08:00 AM] Activity: DrChen is completing his morning routine and preparing to see patients at the respiratory clinic @ the Ville:Isabella Rodriguez's apartment:bathroom:shower",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        16
+      ],
+      "pronunciatio": "\ud83c\udd94\ud83d\udd0d",
+      "description": "[(ID:2VRbU3) Monday February 13 -- 08:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        128,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about DrWang and PatientA clarifying a scheduling mix-up, where DrWang initially mistook PatientA for someone with facial redness, but PatientA corrected that they are there for fever, sore throat, and cough and should be seen in the respiratory clinic. @ <persona> PatientA",
+      "chat": [
+        [
+          "DrWang",
+          "Good morning. I understand you\u2019re here for facial redness and itching\u2014can you tell me how long this has been going on and if anything makes it better or worse?"
+        ],
+        [
+          "PatientA",
+          "Oh, I think there might be a mix-up\u2014I\u2019m actually here for a fever, sore throat, and cough, not facial redness. That\u2019s PatientB who has the skin issue. I\u2019m heading to the respiratory clinic for a check-up."
+        ],
+        [
+          "DrWang",
+          "Ah, my apologies for the confusion. You're right\u2014your symptoms sound respiratory. I\u2019ll let the front desk know to redirect you to the appropriate clinic. Take care."
+        ]
+      ]
+    },
+    "PatientA": {
+      "movement": [
+        124,
+        50
+      ],
+      "pronunciatio": "\ud83d\udcac",
+      "description": "conversing about DrWang and PatientA clarifying a scheduling mix-up, where DrWang initially mistook PatientA for someone with facial redness, but PatientA corrected that they are there for fever, sore throat, and cough and should be seen in the respiratory clinic. @ <persona> DrWang",
+      "chat": [
+        [
+          "DrWang",
+          "Good morning. I understand you\u2019re here for facial redness and itching\u2014can you tell me how long this has been going on and if anything makes it better or worse?"
+        ],
+        [
+          "PatientA",
+          "Oh, I think there might be a mix-up\u2014I\u2019m actually here for a fever, sore throat, and cough, not facial redness. That\u2019s PatientB who has the skin issue. I\u2019m heading to the respiratory clinic for a check-up."
+        ],
+        [
+          "DrWang",
+          "Ah, my apologies for the confusion. You're right\u2014your symptoms sound respiratory. I\u2019ll let the front desk know to redirect you to the appropriate clinic. Take care."
+        ]
+      ]
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\ude0c\ud83d\udeab",
+      "description": "[(ID:xOIJoE) Monday February 13 -- 08:00 AM] Activity: Patient is waking up, washing face gently (avoiding irritation), and completing morning hygiene routine while monitoring facial redness and itching @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:10:00"
+  }
+}

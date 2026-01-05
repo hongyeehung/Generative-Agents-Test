@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        81,
+        23
+      ],
+      "pronunciatio": "\ud83d\udcdd\ud83d\udcbb",
+      "description": "[(ID:Qu5Ug4) Monday February 13 -- 02:00 PM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing (documenting the encounter thoroughly in the electronic health record, including history, exam, assessment, and plan) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83d\udccb\ud83d\udce2",
+      "description": "[(ID:1TLow4) Monday February 13 -- 02:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the (updating the patient flow board and notifying the receiving department via intercom or digital alert) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        79,
+        21
+      ],
+      "pronunciatio": "\ud83d\udc8a\ud83e\uddf4",
+      "description": "[(ID:vZL3nf) Monday February 13 -- 02:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only (prescribing appropriate treatment\u2014typically a topical medication (e.g., mild steroid or calcineurin inhibitor) with or without oral antihistamines) @ the Ville:Hobbs Cafe:cafe:piano",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        77,
+        50
+      ],
+      "pronunciatio": "\ud83e\udd27\ud83e\uddbe",
+      "description": "[(ID:VOPQKV) Monday February 13 -- 02:00 PM] Activity: Patient is continuing to rest in the hospital recovery area or waiting for test results, too fatigued to follow original nap plans but (coughing softly into their elbow, then taking a moment to recover) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udecf\ufe0f",
+      "description": "[(ID:9St5x9) Monday February 13 -- 02:00 PM] Activity: Patient is napping at home to recover from morning stress and fatigue caused by facial itching and the clinic visit, following the dermat (napping lightly, occasionally shifting due to residual facial itch but remaining in bed) @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 14:52:00"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        77,
+        19
+      ],
+      "pronunciatio": "\ud83e\ude7a\ud83d\udc42",
+      "description": "[(ID:wNvbAf) Monday February 13 -- 11:00 AM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing evidence-based (performing a focused physical exam, including auscultation of the lungs and checking vital signs) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        50
+      ],
+      "pronunciatio": "\ud83e\udd27",
+      "description": "[(ID:wqIZpn) Monday February 13 -- 11:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the appropriate (asking follow-up questions about symptom onset, severity, and any additional concerns (e.g., cough, fatigue, pain)) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        114,
+        53
+      ],
+      "pronunciatio": "\u2753\ud83e\uddf4",
+      "description": "[(ID:nwj8ST) Monday February 13 -- 11:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary (asking targeted questions about triggers, duration, skincare products, and medication history) @ the Ville:Dorm for Oak Hill College:common room:common room table",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        82,
+        52
+      ],
+      "pronunciatio": "\ud83c\udd94\ud83d\udd0d",
+      "description": "[(ID:BvjDzu) Monday February 13 -- 10:00 AM] Activity: Patient is traveling to the hospital, en route to complete triage and respiratory consultation as part of their plan for prompt diagnosis and treatment of @ the Ville:The Willows Market and Pharmacy:store:grocery store shelf",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\udee0\ud83e\udd14",
+      "description": "[(ID:tWRjkq) Monday February 13 -- 11:00 AM] Activity: Patient is still at the dermatology clinic, consulting with the dermatologist about facial erythema and itching, discussing possible allergic triggers, (detailing the location, intensity, and pattern of the symptoms (e.g., cheeks, forehead, constant vs. intermittent)) @ the Ville:The Willows Market and Pharmacy:store:behind the grocery counter",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:21:00"
+  }
+}

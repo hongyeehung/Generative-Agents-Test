@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        73,
+        15
+      ],
+      "pronunciatio": "\ud83c\udfe5\ud83d\udcc4",
+      "description": "[(ID:x1CqjL) Monday February 13 -- 08:00 AM] Activity: DrChen is in the respiratory clinic, reviewing the morning patient list and preparing for consultations (1) DrChen is logging into the hospital\u2019s electronic medical record (EMR) system to access the morning patient schedule) @ the Ville:Isabella Rodriguez's apartment:main room:desk",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        108,
+        43
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:fCFgyi) Monday February 13 -- 08:00 AM] Activity: Nurse is at the triage desk, greeting patients, asking about fever and breathing difficulties, and directing them to the appropriate departments (1) Nurse is arriving at the triage desk, organizing patient registration forms and sanitizing the workstation) @ the Ville:Oak Hill College:hallway:<random>",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        59,
+        23
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:JFSC6i) Monday February 13 -- 08:00 AM] Activity: DrWang is in the dermatology clinic, efficiently consulting patients with facial redness and itching, ordering only necessary tests and (1) DrWang is reviewing the morning patient schedule and medical records) @ the Ville:The Rose and Crown Pub:pub:bar customer seating",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        118,
+        61
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:692L3P) Monday February 13 -- 08:00 AM] Activity: Patient is waking up and completing morning routine (brushing teeth, washing face, getting dressed) in preparation for hospital visit (1) Patient is waking up and sitting up in bed) @ the Ville:Dorm for Oak Hill College:Ayesha Khan's room:bed",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "1\ufe0f\u20e3",
+      "description": "[(ID:zRI679) Monday February 13 -- 08:00 AM] Activity: Patient is waking up and completing morning routine (washing face gently due to skin sensitivity, avoiding harsh products) (1) Patient is slowly waking up and sitting up in bed, taking a few deep breaths to ease morning anxiety) @ the Ville:Dorm for Oak Hill College:common room:common room sofa",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 08:03:10"
+  }
+}

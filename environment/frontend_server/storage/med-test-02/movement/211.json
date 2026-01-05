@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        72,
+        20
+      ],
+      "pronunciatio": "\ud83e\uddea\ud83d\udc89",
+      "description": "[(ID:wNvbAf) Monday February 13 -- 11:00 AM] Activity: DrChen is seeing cough and fever patients in the respiratory clinic, carefully reviewing symptoms, ordering necessary diagnostic tests, and providing evidence-based (evaluating clinical findings against evidence-based guidelines to determine necessary diagnostic tests (e.g., rapid flu test, chest X-ray, or PCR)) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        75,
+        50
+      ],
+      "pronunciatio": "\ud83c\udfe5\ud83e\ude7a",
+      "description": "[(ID:wqIZpn) Monday February 13 -- 11:00 AM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the appropriate (reviewing hospital department guidelines to determine the most appropriate referral (e.g., respiratory clinic, urgent care, cardiology)) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        115,
+        54
+      ],
+      "pronunciatio": "\ud83e\uddea\ud83e\udd14",
+      "description": "[(ID:nwj8ST) Monday February 13 -- 11:00 AM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only necessary (deciding whether testing is necessary\u2014opting for patch testing only if history suggests allergy) @ the Ville:Dorm for Oak Hill College:common room:pool table",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        53
+      ],
+      "pronunciatio": "\ud83e\udd12\ud83d\ude37",
+      "description": "[(ID:dnHyLE) Monday February 13 -- 11:00 AM] Activity: Patient is arriving at the hospital, checking in at triage, and beginning to describe symptoms (fever, cough, sore throat) (describing their primary symptoms: fever, persistent cough, and sore throat) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\uddf4\ud83e\udd57",
+      "description": "[(ID:tWRjkq) Monday February 13 -- 11:00 AM] Activity: Patient is still at the dermatology clinic, consulting with the dermatologist about facial erythema and itching, discussing possible allergic triggers, (listing recent changes in skincare products, diet, or environment that might be potential triggers) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store shelf",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 11:31:00"
+  }
+}

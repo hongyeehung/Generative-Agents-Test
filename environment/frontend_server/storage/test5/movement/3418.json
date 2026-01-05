@@ -1,0 +1,34 @@
+{
+  "persona": {
+    "Isabella Rodriguez": {
+      "movement": [
+        79,
+        19
+      ],
+      "pronunciatio": "\ud83d\uddbc\ufe0f\u2764",
+      "description": "[(ID:ymU9vm) Monday February 13 -- 09:00 AM] Activity: Isabella is working at the counter of Hobbs Cafe, greeting early customers with her usual warmth and preparing Valentine\u2019s Day decorations between (stepping away from the counter briefly to hang a string of red-and-pink paper hearts above the pastry case) @ the Ville:Hobbs Cafe:cafe:behind the cafe counter",
+      "chat": null
+    },
+    "Maria Lopez": {
+      "movement": [
+        126,
+        54
+      ],
+      "pronunciatio": "\ud83c\udf73\ud83d\udcf1",
+      "description": "[(ID:9ekYBV) Monday February 13 -- 09:00 AM] Activity: Maria is having breakfast at Hobbs Cafe while reviewing her physics notes (taking a few bites of her omelet while skimming through yesterday\u2019s lecture slides on electromagnetism) @ the Ville:Dorm for Oak Hill College:Maria Lopez's room:computer",
+      "chat": null
+    },
+    "Klaus Mueller": {
+      "movement": [
+        119,
+        28
+      ],
+      "pronunciatio": "\ud83d\udcf0\ud83d\udd0d",
+      "description": "[(ID:peU5tr) Monday February 13 -- 09:00 AM] Activity: Klaus is at the Oak Hill College library, reading scholarly articles and taking notes for his research paper on gentrification in low-income (reading the first article carefully, highlighting key arguments and data about rent increases and community displacement) @ the Ville:Oak Hill College:library:library table",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 09:29:40"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "persona": {
+    "DrChen": {
+      "movement": [
+        76,
+        25
+      ],
+      "pronunciatio": "\ud83d\udde3\ufe0f\ud83d\udccb",
+      "description": "[ (conversing about a conversation between Dr. Chen and Dr. Wang discussing the recent increase in respiratory cases in Dr. Chen\u2019s clinic, a scheduling mix-up involving a respiratory patient mistakenly seen in Dr. Wang\u2019s dermatology clinic, and the implementation of a new triage and referral protocol to prevent such errors.) @ the Ville:Hobbs Cafe:cafe:cafe customer seating",
+      "chat": null
+    },
+    "NurseLi": {
+      "movement": [
+        78,
+        51
+      ],
+      "pronunciatio": "\ud83d\udc69\u200d\u2695",
+      "description": "[(ID:nSwPgj) Monday February 13 -- 01:00 PM] Activity: Nurse is at the triage desk, recording patient symptoms, asking about fever and shortness of breath, and directing patients to the appropriate (handling a walk-in patient with mild symptoms, recording details, and routing them to general consultation) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "DrWang": {
+      "movement": [
+        75,
+        20
+      ],
+      "pronunciatio": "\ud83d\udc8a\ud83d\udccb",
+      "description": "[(ID:2EVuzC) Monday February 13 -- 01:00 PM] Activity: DrWang is at the dermatology clinic, seeing patients with facial erythema and itching, efficiently evaluating symptoms and ordering only (explaining diagnosis and treatment plan concisely, prescribing topical medication \u00b1 oral antihistamine or antibiotic as needed) @ the Ville:Hobbs Cafe:cafe:kitchen sink",
+      "chat": null
+    },
+    "PatientA": {
+      "movement": [
+        78,
+        52
+      ],
+      "pronunciatio": "\ud83d\ude34\ud83d\udecb\ufe0f",
+      "description": "[(ID:5Hjz2K) Monday February 13 -- 01:00 PM] Activity: Patient is resting in the hospital waiting area or recovery space after morning diagnostic tests, feeling fatigued from symptoms and the (leaning back again, closing their eyes, and resting quietly while conserving energy) @ the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+      "chat": null
+    },
+    "PatientB": {
+      "movement": [
+        120,
+        55
+      ],
+      "pronunciatio": "\ud83e\udd6a\ud83e\udd57",
+      "description": "[(ID:HiKy9N) Monday February 13 -- 01:00 PM] Activity: Patient is returning home from the dermatology clinic, feeling fatigued from the morning\u2019s stress and itching; begins preparing a light (preparing a light lunch\u2014perhaps a simple sandwich or salad\u2014to eat while resting) @ the Ville:Dorm for Oak Hill College:kitchen:cooking area",
+      "chat": null
+    }
+  },
+  "meta": {
+    "curr_time": "February 13, 2023, 13:54:00"
+  }
+}
