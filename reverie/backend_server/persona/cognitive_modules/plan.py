@@ -298,6 +298,337 @@ def generate_convo_summary(persona, convo):
   return convo_summary
 
 
+def _workflow_enabled(persona):
+  return bool(persona.scratch.workflow_enabled and persona.scratch.workflow_steps)
+
+
+def _workflow_get_config(persona):
+  return persona.scratch.workflow_vars.get("workflow_config", {})
+
+
+def _workflow_get_step(persona):
+  if not _workflow_enabled(persona):
+    return None
+  idx = persona.scratch.workflow_index
+  if idx < 0 or idx >= len(persona.scratch.workflow_steps):
+    return None
+  return persona.scratch.workflow_steps[idx]
+
+
+def _workflow_advance(persona):
+  persona.scratch.workflow_index += 1
+
+
+def _workflow_wait(persona, address, desc, duration=1):
+  if not address:
+    address = f"<waiting> {persona.scratch.curr_tile[0]} {persona.scratch.curr_tile[1]}"
+  return _workflow_set_action(persona, desc, address, duration)
+
+
+def _workflow_set_action(persona, desc, address, duration):
+  if not address:
+    address = f"<waiting> {persona.scratch.curr_tile[0]} {persona.scratch.curr_tile[1]}"
+  pron = generate_action_pronunciatio(desc, persona)
+  if not pron:
+    pron = "🙂"
+  act_event = generate_action_event_triple(desc, persona)
+  act_obj_event = (None, None, None)
+  persona.scratch.add_new_action(address,
+                                 int(duration),
+                                 desc,
+                                 pron,
+                                 act_event,
+                                 None,
+                                 None,
+                                 None,
+                                 None,
+                                 None,
+                                 None,
+                                 act_obj_event)
+  persona.scratch.chatting_with = None
+  persona.scratch.chat = None
+  persona.scratch.chatting_end_time = None
+  return address
+
+
+def _workflow_chat_end_time(curr_time, duration_min):
+  if curr_time.second != 0:
+    temp_curr_time = curr_time + datetime.timedelta(seconds=60 - curr_time.second)
+    return temp_curr_time + datetime.timedelta(minutes=duration_min)
+  return curr_time + datetime.timedelta(minutes=duration_min)
+
+
+def _workflow_estimate_convo_duration(convo):
+  if not convo:
+    return 1
+  all_utt = ""
+  for row in convo:
+    if row and len(row) >= 2:
+      all_utt += f"{row[0]}: {row[1]}\n"
+  return max(1, math.ceil(int(len(all_utt) / 8) / 30))
+
+
+def _workflow_apply_chat(persona, target, convo, summary, duration_min):
+  act_address = f"<persona> {target.name}"
+  act_event = (persona.name, "chat with", target.name)
+  chat_buffer = {target.name: 800}
+  chatting_end_time = _workflow_chat_end_time(persona.scratch.curr_time,
+                                              duration_min)
+  persona.scratch.add_new_action(act_address,
+                                 int(duration_min),
+                                 summary,
+                                 "💬",
+                                 act_event,
+                                 target.name,
+                                 convo,
+                                 chat_buffer,
+                                 chatting_end_time,
+                                 None,
+                                 None,
+                                 (None, None, None))
+  return act_address
+
+
+def _workflow_format_convo(convo):
+  if not convo:
+    return ""
+  lines = []
+  for row in convo:
+    if not row or len(row) < 2:
+      continue
+    lines.append(f"{row[0]}: {row[1]}")
+  return "\n".join(lines)
+
+
+def _workflow_can_accept_chat(persona, target_name):
+  step = _workflow_get_step(persona)
+  if not step:
+    return False
+  step_type = step.get("type")
+  if step_type == "chat_triage":
+    return (not step.get("initiator", False)
+            and step.get("target") == target_name)
+  if step_type == "chat_doctor" and not step.get("initiator", False):
+    assignment = persona.scratch.workflow_vars.get("assignment")
+    return bool(assignment and assignment.get("doctor") == target_name)
+  return False
+
+
+def _workflow_start_chat(maze, initiator, target):
+  convo, duration_min = generate_convo(maze, initiator, target)
+  summary = generate_convo_summary(initiator, convo)
+  _workflow_apply_chat(initiator, target, convo, summary, duration_min)
+  _workflow_apply_chat(target, initiator, convo, summary, duration_min)
+  return convo, duration_min
+
+
+def _workflow_sync_chat(persona, target):
+  convo = target.scratch.chat
+  if not convo:
+    return False
+  summary = target.scratch.act_description or "chatting"
+  duration_min = _workflow_estimate_convo_duration(convo)
+  _workflow_apply_chat(persona, target, convo, summary, duration_min)
+  return True
+
+
+def _workflow_triage_assignment(nurse, patient, convo_text):
+  result = run_gpt_prompt_triage_decision(nurse, patient, convo_text)[0]
+  department = result.get("department") or "Respiratory"
+  guidance = result.get("guidance") or ""
+
+  config = _workflow_get_config(nurse)
+  triage = config.get("triage", {})
+  dept_map = triage.get("departments", {}).get(department, {})
+  doctor = dept_map.get("doctor")
+  address = dept_map.get("address")
+
+  assignment = {
+    "department": department,
+    "guidance": guidance,
+    "doctor": doctor,
+    "address": address,
+  }
+  patient.scratch.workflow_vars["assignment"] = assignment
+  nurse.scratch.workflow_vars.setdefault("triage_assignments", {})
+  nurse.scratch.workflow_vars.setdefault("triage_notes", {})
+  nurse.scratch.workflow_vars["triage_assignments"][patient.name] = assignment
+  nurse.scratch.workflow_vars["triage_notes"][patient.name] = result
+  doctor_queue = nurse.scratch.workflow_vars.setdefault("doctor_queue", {})
+  if doctor:
+    doctor_queue.setdefault(doctor, [])
+    if patient.name not in doctor_queue[doctor]:
+      doctor_queue[doctor].append(patient.name)
+  return assignment
+
+
+def _workflow_handle_step(persona, maze, personas):
+  step = _workflow_get_step(persona)
+  if not step:
+    return None
+
+  config = _workflow_get_config(persona)
+  triage_cfg = config.get("triage", {})
+  triage_address = triage_cfg.get("triage_address")
+  step_type = step.get("type")
+
+  if step_type == "action":
+    desc = step.get("desc", "waiting")
+    address = step.get("address") or persona.scratch.act_address or triage_address
+    duration = step.get("duration", 1)
+    _workflow_advance(persona)
+    return _workflow_set_action(persona, desc, address, duration)
+
+  if step_type == "goto_triage":
+    desc = step.get("desc", "heading to the triage desk")
+    address = triage_address or persona.scratch.act_address
+    duration = step.get("duration", 1)
+    _workflow_advance(persona)
+    return _workflow_set_action(persona, desc, address, duration)
+
+  if step_type == "chat_triage":
+    target_name = step.get("target")
+    initiator = step.get("initiator", False)
+    target = personas.get(target_name)
+    if not target or not target_name:
+      return _workflow_wait(persona, triage_address, "waiting for triage", 1)
+
+    if initiator:
+      if _workflow_enabled(target) and not _workflow_can_accept_chat(target, persona.name):
+        return _workflow_wait(persona, triage_address, "waiting for patient arrival", 1)
+      if target.scratch.chatting_with and target.scratch.chatting_with != persona.name:
+        return _workflow_wait(persona, triage_address, "waiting to start triage", 1)
+      _workflow_start_chat(maze, persona, target)
+      _workflow_advance(persona)
+      if _workflow_can_accept_chat(target, persona.name):
+        _workflow_advance(target)
+      return persona.scratch.act_address
+
+    if target.scratch.chatting_with == persona.name and target.scratch.chat:
+      _workflow_sync_chat(persona, target)
+      _workflow_advance(persona)
+      return persona.scratch.act_address
+
+    return _workflow_wait(persona, triage_address, "waiting for triage chat", 1)
+
+  if step_type == "triage_decision":
+    patient_name = step.get("patient")
+    patient = personas.get(patient_name)
+    if not patient:
+      return _workflow_wait(persona, triage_address, "waiting for patient", 1)
+
+    assignment = patient.scratch.workflow_vars.get("assignment")
+    if not assignment:
+      convo_text = _workflow_format_convo(persona.scratch.chat or patient.scratch.chat)
+      if not convo_text:
+        convo_text = patient.scratch.learned or patient.scratch.currently or ""
+      assignment = _workflow_triage_assignment(persona, patient, convo_text)
+
+    desc = (f"triage decision for {patient.name}: "
+            f"Department: {assignment.get('department')}; "
+            f"Guidance: {assignment.get('guidance')}")
+    duration = step.get("duration", 1)
+    _workflow_advance(persona)
+    return _workflow_set_action(persona, desc, triage_address, duration)
+
+  if step_type == "goto_department":
+    assignment = persona.scratch.workflow_vars.get("assignment")
+    if not assignment or not assignment.get("address"):
+      return _workflow_wait(persona, triage_address, "waiting for triage assignment", 1)
+    desc = f"heading to {assignment.get('department')} as instructed"
+    address = assignment.get("address")
+    duration = step.get("duration", 1)
+    _workflow_advance(persona)
+    return _workflow_set_action(persona, desc, address, duration)
+
+  if step_type == "chat_doctor":
+    assignment = persona.scratch.workflow_vars.get("assignment")
+    if not assignment or not assignment.get("doctor"):
+      return _workflow_wait(persona, triage_address, "waiting for doctor assignment", 1)
+    target = personas.get(assignment.get("doctor"))
+    if not target:
+      return _workflow_wait(persona, triage_address, "waiting for doctor", 1)
+
+    if target.scratch.chatting_with == persona.name and target.scratch.chat:
+      _workflow_sync_chat(persona, target)
+      _workflow_advance(persona)
+      return persona.scratch.act_address
+
+    return _workflow_wait(persona, assignment.get("address"), "waiting for doctor chat", 1)
+
+  if step_type == "receive_diagnosis":
+    diagnosis = persona.scratch.workflow_vars.get("diagnosis")
+    assignment = persona.scratch.workflow_vars.get("assignment", {})
+    address = assignment.get("address") or triage_address
+    if not diagnosis:
+      return _workflow_wait(persona, address, "waiting for diagnosis", 1)
+    desc = f"receiving diagnosis and treatment plan: {diagnosis}"
+    duration = step.get("duration", 1)
+    _workflow_advance(persona)
+    return _workflow_set_action(persona, desc, address, duration)
+
+  if step_type == "doctor_chat":
+    nurse_name = triage_cfg.get("nurse")
+    nurse = personas.get(nurse_name) if nurse_name else None
+    if not nurse:
+      return _workflow_wait(persona, persona.scratch.act_address, "waiting for triage queue", 1)
+    doctor_queue = nurse.scratch.workflow_vars.get("doctor_queue", {})
+    queue = doctor_queue.get(persona.name, [])
+    if not queue:
+      address = step.get("address") or persona.scratch.act_address
+      return _workflow_wait(persona, address, "waiting for assigned patient", 1)
+    patient_name = queue[0]
+    patient = personas.get(patient_name)
+    if not patient:
+      return _workflow_wait(persona, persona.scratch.act_address, "waiting for patient", 1)
+    if _workflow_enabled(patient) and not _workflow_can_accept_chat(patient, persona.name):
+      address = step.get("address") or persona.scratch.act_address
+      return _workflow_wait(persona, address, "waiting for patient readiness", 1)
+    queue.pop(0)
+    persona.scratch.workflow_vars["current_patient"] = patient_name
+    _workflow_start_chat(maze, persona, patient)
+    _workflow_advance(persona)
+    if _workflow_can_accept_chat(patient, persona.name):
+      _workflow_advance(patient)
+    return persona.scratch.act_address
+
+  if step_type == "doctor_diagnosis":
+    patient_name = persona.scratch.workflow_vars.get("current_patient")
+    if not patient_name:
+      address = step.get("address") or persona.scratch.act_address
+      return _workflow_wait(persona, address, "waiting for patient assignment", 1)
+    patient = personas.get(patient_name)
+    if not patient:
+      return _workflow_wait(persona, persona.scratch.act_address, "waiting for patient", 1)
+
+    assignment = patient.scratch.workflow_vars.get("assignment", {})
+    department = assignment.get("department") or "Respiratory"
+    convo_text = _workflow_format_convo(persona.scratch.chat or patient.scratch.chat)
+    if not convo_text:
+      convo_text = patient.scratch.learned or patient.scratch.currently or ""
+    diagnosis = run_gpt_prompt_doctor_diagnosis(persona, patient,
+                                                convo_text, department)[0]
+    patient.scratch.workflow_vars["diagnosis"] = diagnosis
+    persona.scratch.workflow_vars["last_diagnosis"] = diagnosis
+    persona.scratch.workflow_vars["current_patient"] = None
+
+    desc = f"diagnosis result for {patient.name}: {diagnosis}"
+    address = step.get("address") or assignment.get("address") or persona.scratch.act_address
+    duration = step.get("duration", 1)
+    _workflow_advance(persona)
+    return _workflow_set_action(persona, desc, address, duration)
+
+  return None
+
+
+def _maybe_run_workflow(persona, maze, personas):
+  if not _workflow_enabled(persona):
+    return None
+  if not persona.scratch.act_check_finished():
+    return persona.scratch.act_address
+  return _workflow_handle_step(persona, maze, personas)
+
+
 def generate_decide_to_talk(init_persona, target_persona, retrieved): 
   x =run_gpt_prompt_decide_to_talk(init_persona, target_persona, retrieved)[0]
   if debug: print ("GNS FUNCTION: <generate_decide_to_talk>")
@@ -950,6 +1281,10 @@ def plan(persona, maze, personas, new_day, retrieved):
   OUTPUT 
     The target action address of the persona (persona.scratch.act_address).
   """ 
+  workflow_address = _maybe_run_workflow(persona, maze, personas)
+  if workflow_address:
+    return workflow_address
+
   # PART 1: Generate the hourly schedule. 
   if new_day: 
     _long_term_planning(persona, new_day)

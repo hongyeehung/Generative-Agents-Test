@@ -15,6 +15,11 @@ sys.path.append('../../')
 from global_methods import *
 from persona.prompt_template.gpt_structure import *
 from persona.prompt_template.print_prompt import *
+from persona.prompt_template.simple_medical_templates import (
+  triage_prompt,
+  resp_doctor_prompt,
+  derm_doctor_prompt,
+)
 
 def get_random_alphanumeric(i=6, j=6): 
   """
@@ -2935,3 +2940,117 @@ def run_gpt_generate_iterative_chat_utt(maze, init_persona, target_persona, retr
 
 
 
+
+def run_gpt_prompt_triage_decision(nurse, patient, convo_text, test_input=None, verbose=False):
+  def _parse_response(text):
+    if not text:
+      return None, None
+    dept_match = re.search(r"Department\s*:\s*([A-Za-z]+)", text)
+    guidance_match = re.search(r"Guidance\s*:\s*(.*)", text)
+    dept = dept_match.group(1).strip() if dept_match else None
+    guidance = guidance_match.group(1).strip() if guidance_match else None
+    if guidance and guidance.endswith(";"):
+      guidance = guidance[:-1].strip()
+    if dept:
+      low = dept.lower()
+      if "resp" in low:
+        dept = "Respiratory"
+      elif "derm" in low:
+        dept = "Dermatology"
+      else:
+        dept = None
+    return dept, guidance
+
+  def __func_clean_up(gpt_response, prompt=""):
+    dept, guidance = _parse_response(gpt_response)
+    return {
+      "department": dept,
+      "guidance": guidance,
+      "raw": gpt_response.strip(),
+    }
+
+  def __func_validate(gpt_response, prompt=""):
+    dept, _ = _parse_response(gpt_response)
+    return bool(dept)
+
+  def get_fail_safe():
+    return {
+      "department": "Respiratory",
+      "guidance": "Please proceed to the respiratory clinic.",
+      "raw": "",
+    }
+
+  if test_input:
+    prompt = test_input
+  else:
+    prompt = (
+      f"{triage_prompt}\n\n"
+      f"Patient: {patient.scratch.name}\n"
+      f"Known symptoms: {patient.scratch.learned}\n"
+      f"Conversation:\n{convo_text}\n"
+      "Output format: Department: <department>; Guidance: <one sentence>."
+    )
+
+  gpt_param = {
+    "engine": "text-davinci-003",
+    "max_tokens": 80,
+    "temperature": 0.2,
+    "top_p": 1,
+    "stream": False,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "stop": None,
+  }
+
+  fail_safe = get_fail_safe()
+  output = safe_generate_response(prompt, gpt_param, 3, fail_safe,
+                                  __func_validate, __func_clean_up, verbose)
+
+  prompt_input = [patient.scratch.get_str_iss(), convo_text]
+  return output, [output, prompt, gpt_param, prompt_input, fail_safe]
+
+
+def run_gpt_prompt_doctor_diagnosis(doctor, patient, convo_text, department,
+                                    test_input=None, verbose=False):
+  def __func_clean_up(gpt_response, prompt=""):
+    return gpt_response.strip()
+
+  def __func_validate(gpt_response, prompt=""):
+    text = gpt_response.strip()
+    return "Diagnosis:" in text and "Treatment:" in text
+
+  def get_fail_safe():
+    return "Test: No test needed; Diagnosis: Undetermined; Treatment: Follow up."
+
+  if test_input:
+    prompt = test_input
+  else:
+    if department == "Dermatology":
+      header = derm_doctor_prompt
+    else:
+      header = resp_doctor_prompt
+
+    prompt = (
+      f"{header}\n\n"
+      f"Patient: {patient.scratch.name}\n"
+      f"Known symptoms: {patient.scratch.learned}\n"
+      f"Conversation:\n{convo_text}\n"
+    )
+
+  gpt_param = {
+    "engine": "text-davinci-003",
+    "max_tokens": 120,
+    "temperature": 0.3,
+    "top_p": 1,
+    "stream": False,
+    "frequency_penalty": 0,
+    "presence_penalty": 0,
+    "stop": None,
+  }
+
+  fail_safe = get_fail_safe()
+  output = safe_generate_response(prompt, gpt_param, 3, fail_safe,
+                                  __func_validate, __func_clean_up, verbose)
+
+  prompt_input = [patient.scratch.get_str_iss(), convo_text, department]
+  return output, [output, prompt, gpt_param, prompt_input, fail_safe]

@@ -133,6 +133,41 @@ class ReverieServer:
             self.maze.tiles[p_y][p_x]["events"].add(curr_persona.scratch
                                                     .get_curr_event_and_desc())
 
+        # WORKFLOW CONFIGURATION (OPTIONAL)
+        self.workflow_config = None
+        workflow_path = f"{sim_folder}/reverie/workflow.json"
+        if check_if_file_exists(workflow_path):
+            try:
+                with open(workflow_path) as json_file:
+                    self.workflow_config = json.load(json_file)
+            except Exception:
+                self.workflow_config = None
+
+        if self.workflow_config:
+            workflow_personas = self.workflow_config.get("personas", {})
+            for persona_name, persona in self.personas.items():
+                steps = workflow_personas.get(persona_name, [])
+                if steps:
+                    persona.scratch.workflow_enabled = True
+                    persona.scratch.workflow_steps = steps
+                    persona.scratch.workflow_index = 0
+                    if not persona.scratch.workflow_vars:
+                        persona.scratch.workflow_vars = {}
+                    persona.scratch.workflow_vars.setdefault(
+                        "workflow_config", self.workflow_config)
+                    persona.scratch.workflow_vars.setdefault(
+                        "doctor_queue", {})
+                    persona.scratch.workflow_vars.setdefault(
+                        "triage_notes", {})
+                    persona.scratch.workflow_vars.setdefault(
+                        "triage_assignments", {})
+                    persona.scratch.workflow_vars.setdefault(
+                        "current_patient", None)
+                    persona.scratch.workflow_vars.setdefault(
+                        "assignment", None)
+                    persona.scratch.workflow_vars.setdefault(
+                        "diagnosis", None)
+
         # REVERIE SETTINGS PARAMETERS:
         # <server_sleep> denotes the amount of time that our while loop rests each
         # cycle; this is to not kill our machine.

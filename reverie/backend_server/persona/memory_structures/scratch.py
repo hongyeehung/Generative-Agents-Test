@@ -158,6 +158,12 @@ class Scratch:
     # e.g., [(50, 10), (49, 10), (48, 10), ...]
     self.planned_path = []
 
+    # WORKFLOW CONTROL
+    self.workflow_enabled = False
+    self.workflow_steps = []
+    self.workflow_index = 0
+    self.workflow_vars = {}
+
     if check_if_file_exists(f_saved): 
       # If we have a bootstrap file, load that here. 
       scratch_load = json.load(open(f_saved))
@@ -232,6 +238,11 @@ class Scratch:
 
       self.act_path_set = scratch_load["act_path_set"]
       self.planned_path = scratch_load["planned_path"]
+
+      self.workflow_enabled = scratch_load.get("workflow_enabled", False)
+      self.workflow_steps = scratch_load.get("workflow_steps", [])
+      self.workflow_index = scratch_load.get("workflow_index", 0)
+      self.workflow_vars = scratch_load.get("workflow_vars", {})
 
 
   def save(self, out_json):
@@ -311,6 +322,11 @@ class Scratch:
 
     scratch["act_path_set"] = self.act_path_set
     scratch["planned_path"] = self.planned_path
+
+    scratch["workflow_enabled"] = self.workflow_enabled
+    scratch["workflow_steps"] = self.workflow_steps
+    scratch["workflow_index"] = self.workflow_index
+    scratch["workflow_vars"] = self.workflow_vars
 
     with open(out_json, "w") as outfile:
       json.dump(scratch, outfile, indent=2) 
@@ -621,7 +637,6 @@ class Scratch:
       minute = curr_min_sum%60
       ret += f"{hour:02}:{minute:02} || {row[0]}\n"
     return ret
-
 
 
 

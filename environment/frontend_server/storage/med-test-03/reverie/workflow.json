@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "triage": {
+    "nurse": "NurseLi",
+    "triage_address": "the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+    "departments": {
+      "Respiratory": {
+        "doctor": "DrChen",
+        "address": "the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter"
+      },
+      "Dermatology": {
+        "doctor": "DrWang",
+        "address": "the Ville:The Willows Market and Pharmacy:store:grocery store counter"
+      }
+    }
+  },
+  "personas": {
+    "PatientA": [
+      {
+        "type": "action",
+        "desc": "experiencing fever and cough symptoms",
+        "address": "the Ville:Harvey Oak Supply Store:supply store:supply store counter",
+        "duration": 10
+      },
+      {
+        "type": "goto_triage",
+        "duration": 5
+      },
+      {
+        "type": "chat_triage",
+        "target": "NurseLi",
+        "initiator": false
+      },
+      {
+        "type": "goto_department",
+        "duration": 3
+      },
+      {
+        "type": "chat_doctor",
+        "initiator": false
+      },
+      {
+        "type": "receive_diagnosis",
+        "duration": 5
+      }
+    ],
+    "PatientB": [
+      {
+        "type": "action",
+        "desc": "experiencing skin itching and redness",
+        "address": "the Ville:Dorm for Oak Hill College:common room:common room table",
+        "duration": 10
+      },
+      {
+        "type": "goto_triage",
+        "duration": 5
+      },
+      {
+        "type": "chat_triage",
+        "target": "NurseLi",
+        "initiator": false
+      },
+      {
+        "type": "goto_department",
+        "duration": 3
+      },
+      {
+        "type": "chat_doctor",
+        "initiator": false
+      },
+      {
+        "type": "receive_diagnosis",
+        "duration": 5
+      }
+    ],
+    "NurseLi": [
+      {
+        "type": "action",
+        "desc": "waiting at the triage desk",
+        "address": "the Ville:The Willows Market and Pharmacy:store:pharmacy store counter",
+        "duration": 5
+      },
+      {
+        "type": "chat_triage",
+        "target": "PatientA",
+        "initiator": true
+      },
+      {
+        "type": "triage_decision",
+        "patient": "PatientA",
+        "duration": 3
+      },
+      {
+        "type": "action",
+        "desc": "recording the triage decision",
+        "address": "the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+        "duration": 2
+      },
+      {
+        "type": "chat_triage",
+        "target": "PatientB",
+        "initiator": true
+      },
+      {
+        "type": "triage_decision",
+        "patient": "PatientB",
+        "duration": 3
+      },
+      {
+        "type": "action",
+        "desc": "recording the triage decision",
+        "address": "the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+        "duration": 2
+      }
+    ],
+    "DrChen": [
+      {
+        "type": "action",
+        "desc": "waiting for assigned respiratory patients",
+        "address": "the Ville:The Willows Market and Pharmacy:store:behind the pharmacy counter",
+        "duration": 5
+      },
+      {
+        "type": "doctor_chat",
+        "initiator": true
+      },
+      {
+        "type": "doctor_diagnosis",
+        "duration": 5
+      }
+    ],
+    "DrWang": [
+      {
+        "type": "action",
+        "desc": "waiting for assigned dermatology patients",
+        "address": "the Ville:The Willows Market and Pharmacy:store:grocery store counter",
+        "duration": 5
+      },
+      {
+        "type": "doctor_chat",
+        "initiator": true
+      },
+      {
+        "type": "doctor_diagnosis",
+        "duration": 5
+      }
+    ]
+  }
+}
